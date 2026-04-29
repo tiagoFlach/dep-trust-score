@@ -293,6 +293,12 @@ function parseWeights(weightsStr?: string): ScoreWeights | null {
     }
 }
 
+function hasVulnerabilitiesField(
+    data: TrustScore['breakdown'][keyof TrustScore['breakdown']]
+): data is TrustScore['breakdown']['vulnerabilities'] {
+    return 'vulnerabilities' in data && Array.isArray(data.vulnerabilities);
+}
+
 /**
  * Print detailed explanation of score
  */
@@ -325,7 +331,7 @@ function printDetailedExplanation(score: TrustScore): void {
         console.log(`    ${factor.data.explanation}`);
 
         // Show vulnerabilities details
-        if (factor.name === 'Vulnerabilities' && 'vulnerabilities' in factor.data && factor.data.vulnerabilities.length > 0) {
+        if (factor.name === 'Vulnerabilities' && hasVulnerabilitiesField(factor.data) && factor.data.vulnerabilities.length > 0) {
             console.log('    Vulnerabilities:');
             for (const vuln of factor.data.vulnerabilities) {
                 const vulnColor = vuln.severity === 'critical' ? chalk.red : vuln.severity === 'high' ? chalk.yellow : chalk.gray;
