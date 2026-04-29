@@ -1,0 +1,103 @@
+name: Dependency Trust Score Check
+
+on:
+  pull_request:
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+      - 'yarn.lock'
+  schedule:
+    # Run daily to check for new vulnerabilities
+    - cron: '0 0 * * *'
+
+jobs:
+  trust-score-check:
+    runs-on: ubuntu-latest
+    name: Check Dependency Trust Scores
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install trust-score
+        run: npm install -g dep-trust-score
+
+      - name: Extract dependencies from package.json
+        id: extract-deps
+        run: |
+          # Extract production dependencies
+          DEPS=$(jq -r '.dependencies | keys[]' package.json | head -20 | tr '\n' ' ')
+          echo "DEPENDENCIES=$DEPS" >> $GITHUB_OUTPUT
+
+      - name: Run trust score analysis
+        id: trust-score
+        continue-on-error: true
+        run: |
+          THRESHOLD=60
+          PACKAGES="${{ steps.extract-deps.outputs.DEPENDENCIES }}"
+
+          # Run batch analysis
+          trust-score batch $PACKAGES --output json > trust-scores.json || true
+          cat trust-scores.json
+
+      - name: Parse and check results
+        run: |
+          THRESHOLD=60
+
+          # Extract failed packages (score < threshold)
+          FAILED=$(jq -r '.packages[] | select(.score < '$THRESHOLD') | .package' trust-scores.json)
+
+          if [ ! -z "$FAILED" ]; then
+            echo "## ⚠️ Low Trust Score Packages"
+            echo "Packages below threshold ($THRESHOLD):"
+            echo ""
+            echo "$FAILED" | while read pkg; do
+              SCORE=$(jq -r --arg pkg "$pkg" '.packages[] | select(.package == $pkg) | .score' trust-scores.json)
+              echo "- **$pkg**: Score $SCORE/100"
+            done
+            exit 1
+          else
+            echo "✓ All packages meet minimum trust score threshold"
+          fi
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && always()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const scores = JSON.parse(fs.readFileSync('trust-scores.json', 'utf-8'));
+
+            let comment = '## 📊 Dependency Trust Score Analysis\n\n';
+            comment += `**Average Score:** ${scores.summary.averageScore.toFixed(1)}/100\n`;
+            comment += `**Total Packages:** ${scores.summary.totalPackages}\n`;
+            comment += `**Critical (<30):** ${scores.summary.criticalCount}\n`;
+            comment += `**Low Trust (<50):** ${scores.summary.lowTrustCount}\n\n`;
+
+            comment += '### Package Scores\n\n';
+            comment += '| Package | Score | Status |\n';
+            comment += '|---------|-------|--------|\n';
+
+            scores.packages.forEach(pkg => {
+              const status = pkg.score >= 60 ? '✅' : pkg.score >= 40 ? '⚠️' : '❌';
+              comment += `| ${pkg.package} | ${pkg.score.toFixed(1)}/100 | ${status} |\n`;
+            });
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+      - name: Upload trust scores
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: trust-scores
+          path: trust-scores.json

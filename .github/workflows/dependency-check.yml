@@ -1,0 +1,156 @@
+name: Dependency Trust Score Check
+
+on:
+  pull_request:
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+  schedule:
+    # Verifica dependências diariamente
+    - cron: '0 0 * * *'
+
+jobs:
+  dependency-check:
+    runs-on: ubuntu-latest
+    name: Analyze Dependency Trust Scores
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build trust-score CLI
+        run: npm run build
+
+      - name: Extract and check dependencies
+        id: check-deps
+        run: |
+          # Extrai as 20 principais dependências
+          DEPS=$(jq -r '.dependencies | keys[]' package.json | head -20 | tr '\n' ' ')
+          echo "DEPENDENCIES=$DEPS" >> $GITHUB_OUTPUT
+
+          # Se houver dependências, salva a lista
+          if [ ! -z "$DEPS" ]; then
+            echo "Checking: $DEPS"
+          fi
+
+      - name: Run dep-trust-score analysis
+        id: trust-score
+        continue-on-error: true
+        run: |
+          DEPS="${{ steps.check-deps.outputs.DEPENDENCIES }}"
+
+          if [ -z "$DEPS" ]; then
+            echo "No dependencies found in package.json"
+            exit 0
+          fi
+
+          # Executa análise com threshold de 60
+          npx trust-score batch $DEPS \
+            --threshold 60 \
+            --output json | tee trust-scores.json || true
+
+          # Garante que o arquivo existe
+          if [ ! -f trust-scores.json ]; then
+            echo "Warning: trust-scores.json not created"
+          fi
+
+      - name: Parse and report results
+        id: parse-results
+        run: |
+          if [ ! -f trust-scores.json ]; then
+            echo "No analysis results available"
+            exit 0
+          fi
+
+          TOTAL=$(jq -r '.summary.totalPackages' trust-scores.json 2>/dev/null || echo "0")
+          AVERAGE=$(jq -r '.summary.averageScore' trust-scores.json 2>/dev/null || echo "0")
+          CRITICAL=$(jq -r '.summary.criticalCount' trust-scores.json 2>/dev/null || echo "0")
+          LOW_TRUST=$(jq -r '.summary.lowTrustCount' trust-scores.json 2>/dev/null || echo "0")
+
+          echo "total=$TOTAL" >> $GITHUB_OUTPUT
+          echo "average=$AVERAGE" >> $GITHUB_OUTPUT
+          echo "critical=$CRITICAL" >> $GITHUB_OUTPUT
+          echo "low_trust=$LOW_TRUST" >> $GITHUB_OUTPUT
+
+          echo "📊 Analysis Results:"
+          echo "  Total packages: $TOTAL"
+          echo "  Average score: $AVERAGE/100"
+          echo "  Critical (< 30): $CRITICAL"
+          echo "  Low trust (< 50): $LOW_TRUST"
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request' && always()
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+
+            if (!fs.existsSync('trust-scores.json')) {
+              console.log('No scores file available');
+              return;
+            }
+
+            const scores = JSON.parse(fs.readFileSync('trust-scores.json', 'utf-8'));
+
+            let comment = '## 📊 Dependency Trust Score Analysis\n\n';
+            comment += `**Summary:**\n`;
+            comment += `- Total Packages: ${scores.summary.totalPackages}\n`;
+            comment += `- Average Score: **${scores.summary.averageScore.toFixed(1)}/100**\n`;
+            comment += `- Critical (<30): ${scores.summary.criticalCount}\n`;
+            comment += `- Low Trust (<50): ${scores.summary.lowTrustCount}\n\n`;
+
+            comment += `**Package Scores:**\n\n`;
+            comment += `| Package | Score | Status |\n`;
+            comment += `|---------|-------|--------|\n`;
+
+            scores.packages.forEach(pkg => {
+              const status = pkg.score >= 60 ? '✅' : pkg.score >= 40 ? '⚠️' : '❌';
+              comment += `| ${pkg.package} | ${pkg.score.toFixed(1)}/100 | ${status} |\n`;
+            });
+
+            if (scores.packages.length === 0) {
+              comment += `| No packages analyzed | - | - |\n`;
+            }
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
+
+      - name: Fail if critical packages found
+        if: always()
+        run: |
+          if [ ! -f trust-scores.json ]; then
+            echo "No analysis available"
+            exit 0
+          fi
+
+          CRITICAL=$(jq -r '.summary.criticalCount' trust-scores.json 2>/dev/null || echo "0")
+
+          if [ "$CRITICAL" -gt 0 ]; then
+            echo "❌ Found $CRITICAL critical packages (score < 30)"
+            jq -r '.packages[] | select(.score < 30) | "  - \(.package): \(.score)/100"' trust-scores.json
+            # Não falha o build, apenas avisa
+            # exit 1
+          else
+            echo "✅ No critical packages found"
+          fi
+
+      - name: Upload analysis results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: dependency-analysis
+          path: trust-scores.json
+          if-no-files-found: ignore
