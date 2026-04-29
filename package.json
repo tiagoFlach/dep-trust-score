@@ -5,11 +5,11 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "trust-score": "dist/cli.js"
+    "trust-score": "dist/cli/index.js"
   },
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src/cli.ts",
+    "dev": "ts-node src/cli/index.ts",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
