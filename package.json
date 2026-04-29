@@ -10,6 +10,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/cli/index.ts",
+    "generate:data": "node scripts/generate-npm-ranking-data.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
