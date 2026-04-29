@@ -13,7 +13,7 @@ Este diretório contém os workflows de CI/CD para o projeto `dep-trust-score`.
 **Jobs**:
 
 #### Job: `test`
-Testa o projeto em múltiplas versões do Node.js (16.x, 18.x, 20.x)
+Testa o projeto em múltiplas versões do Node.js (20.x, 22.x, 24.x)
 
 **Steps**:
 1. ✅ Checkout do código
@@ -176,7 +176,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm install
       - run: npm run build

@@ -202,7 +202,7 @@ jobs:
     steps:
       - task: UseNode@1
         inputs:
-          version: '18.x'
+          version: '20.x'
       
       - script: npm install -g dep-trust-score
         displayName: 'Install trust-score'
