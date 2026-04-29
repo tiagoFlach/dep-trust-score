@@ -35,6 +35,9 @@ interface NpmVersion {
     name: string;
     version: string;
     description?: string;
+    _npmUser?: {
+        name?: string;
+    };
     dependencies?: Record<string, string>;
     devDependencies?: Record<string, string>;
     peerDependencies?: Record<string, string>;
@@ -111,9 +114,7 @@ export class DataCollector {
             const publishedAtStr = time[version];
             if (publishedAtStr) {
                 const versionData = data.versions[version];
-                const maintainer = typeof versionData === 'object' && '_npmUser' in versionData
-                    ? (versionData as any)._npmUser?.name || 'unknown'
-                    : 'unknown';
+                const maintainer = versionData?._npmUser?.name || 'unknown';
 
                 history.push({
                     version,

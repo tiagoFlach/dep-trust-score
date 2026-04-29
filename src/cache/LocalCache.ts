@@ -100,7 +100,7 @@ export class LocalCache {
             }
 
             return true;
-        } catch (error) {
+        } catch {
             return false;
         }
     }
@@ -152,7 +152,7 @@ export class LocalCache {
                 fileCount: files.length,
                 totalSize,
             };
-        } catch (error) {
+        } catch {
             return { cacheDir: this.cacheDir, fileCount: 0, totalSize: 0 };
         }
     }

@@ -1,6 +1,8 @@
 import { DataCollector } from './collectors/DataCollector';
 import { ScoreCalculator } from './calculators/ScoreCalculator';
 import { LocalCache } from './cache/LocalCache';
+import * as fs from 'fs';
+import * as path from 'path';
 import {
     TrustScore,
     TrustScoreOptions,
@@ -152,10 +154,6 @@ export class TrustScoreAPI {
             return result;
         }
 
-        // Read all cache files
-        const fs = require('fs');
-        const path = require('path');
-
         const files = fs.readdirSync(cacheDir);
         for (const file of files) {
             try {
@@ -163,7 +161,7 @@ export class TrustScoreAPI {
                 const entry = JSON.parse(content);
                 const packageName = file.replace('.json', '').replace(/__/g, '/').replace(/_/g, ' ');
                 result.set(packageName, entry.data);
-            } catch (error) {
+            } catch {
                 // Skip invalid cache files
             }
         }

@@ -8,6 +8,32 @@ import { formatScoreTable, formatScoreText, formatBatchResults } from './formatt
 
 const api = new TrustScoreAPI();
 
+interface CheckCommandArgs {
+    package: string;
+    output: 'json' | 'text' | 'table';
+    explain: boolean;
+    offline: boolean;
+    refresh: boolean;
+    weights?: string;
+    cache?: string;
+}
+
+interface BatchCommandArgs {
+    packages: string[];
+    output: 'json' | 'text' | 'table';
+    threshold: number;
+    offline: boolean;
+    weights?: string;
+    cache?: string;
+}
+
+interface ExplainCommandArgs {
+    package: string;
+    offline: boolean;
+    weights?: string;
+    cache?: string;
+}
+
 yargs(hideBin(process.argv))
     .scriptName('trust-score')
     .usage('$0 <command> [args]')
@@ -56,7 +82,7 @@ yargs(hideBin(process.argv))
                 }),
         async (argv) => {
             try {
-                const options = argv as any;
+                const options = argv as unknown as CheckCommandArgs;
                 const customWeights = parseWeights(options.weights);
 
                 if (customWeights) {
@@ -123,7 +149,7 @@ yargs(hideBin(process.argv))
                 }),
         async (argv) => {
             try {
-                const options = argv as any;
+                const options = argv as unknown as BatchCommandArgs;
                 const customWeights = parseWeights(options.weights);
 
                 if (customWeights) {
@@ -169,7 +195,7 @@ yargs(hideBin(process.argv))
                 }),
         async (argv) => {
             try {
-                const options = argv as any;
+                const options = argv as unknown as ExplainCommandArgs;
                 const customWeights = parseWeights(options.weights);
 
                 if (customWeights) {
@@ -299,14 +325,9 @@ function printDetailedExplanation(score: TrustScore): void {
         console.log(`    ${factor.data.explanation}`);
 
         // Show vulnerabilities details
-        if (
-            factor.name === 'Vulnerabilities' &&
-            'vulnerabilities' in factor.data &&
-            Array.isArray((factor.data as any).vulnerabilities) &&
-            (factor.data as any).vulnerabilities.length > 0
-        ) {
+        if (factor.name === 'Vulnerabilities' && 'vulnerabilities' in factor.data && factor.data.vulnerabilities.length > 0) {
             console.log('    Vulnerabilities:');
-            for (const vuln of (factor.data as any).vulnerabilities) {
+            for (const vuln of factor.data.vulnerabilities) {
                 const vulnColor = vuln.severity === 'critical' ? chalk.red : vuln.severity === 'high' ? chalk.yellow : chalk.gray;
                 console.log(`      - [${vulnColor(vuln.severity.toUpperCase())}] ${vuln.id}: ${vuln.description}`);
             }
