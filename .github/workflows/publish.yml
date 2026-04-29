@@ -13,6 +13,7 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
+    if: github.ref_type == 'tag'
 
     steps:
       - name: Checkout code
