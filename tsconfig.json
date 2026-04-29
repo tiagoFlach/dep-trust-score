@@ -21,7 +21,8 @@
         "noImplicitReturns": true,
         "moduleResolution": "node",
         "types": [
-            "node"
+            "node",
+            "jest"
         ],
         "ignoreDeprecations": "6.0"
     },

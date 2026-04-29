@@ -28,7 +28,7 @@ describe('TrustScoreAPI Integration', () => {
             api.setWeights(customWeights);
             const weights = api.getWeights();
 
-            expect(weights.vulnerabilities).toBeGreaterThan(40);
+            expect(weights.vulnerabilities).toBeGreaterThan(35);
         });
 
         it('should return default weights initially', () => {

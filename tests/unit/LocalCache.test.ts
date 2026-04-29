@@ -58,12 +58,16 @@ describe('LocalCache', () => {
             expect(cache.get('short-lived')).toEqual({ data: 'test' });
 
             setTimeout(() => {
-                expect(cache.get('short-lived')).toBeNull();
-                done();
+                try {
+                    expect(cache.get('short-lived')).toBeNull();
+                    done();
+                } catch (error) {
+                    done(error as Error);
+                }
             }, 150);
         });
 
-        it('should not expire valid entries', () => {
+        it('should not expire valid entries', (done) => {
             const longTTL = 10000; // 10 seconds
             cache.set('long-lived', { data: 'test' }, longTTL);
 
@@ -71,7 +75,12 @@ describe('LocalCache', () => {
 
             // Wait a bit and check again
             setTimeout(() => {
-                expect(cache.get('long-lived')).toEqual({ data: 'test' });
+                try {
+                    expect(cache.get('long-lived')).toEqual({ data: 'test' });
+                    done();
+                } catch (error) {
+                    done(error as Error);
+                }
             }, 100);
         });
     });
@@ -121,6 +130,7 @@ describe('LocalCache', () => {
 
     describe('Error handling', () => {
         it('should handle corrupted cache files gracefully', () => {
+            const warnSpy = jest.spyOn(console, 'warn').mockImplementation(() => undefined);
             cache.set('valid', { data: 'test' });
 
             // Corrupt a cache file
@@ -133,6 +143,9 @@ describe('LocalCache', () => {
             // Should not throw
             const result = cache.get('valid');
             expect(result).toBeNull();
+            expect(warnSpy).toHaveBeenCalled();
+
+            warnSpy.mockRestore();
         });
 
         it('should handle missing cache directory gracefully', () => {
@@ -161,7 +174,7 @@ describe('LocalCache', () => {
             };
 
             cache.set('complex', complexData);
-            const retrieved = cache.get('complex');
+            const retrieved = cache.get<typeof complexData>('complex');
 
             expect(retrieved).toEqual(complexData);
             expect(retrieved?.breakdown.vulnerabilities.value).toBe(100);

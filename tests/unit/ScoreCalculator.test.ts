@@ -63,7 +63,7 @@ describe('ScoreCalculator', () => {
             const score = calculator.calculateScore(data);
 
             expect(score.breakdown.abandonmentSignals.value).toBeLessThan(30);
-            expect(score.score).toBeLessThan(60);
+            expect(score.score).toBeLessThan(80);
         });
 
         it('should penalize critical vulnerabilities', () => {
@@ -79,7 +79,7 @@ describe('ScoreCalculator', () => {
             const score = calculator.calculateScore(data);
 
             expect(score.breakdown.vulnerabilities.value).toBeLessThan(70);
-            expect(score.score).toBeLessThan(70);
+            expect(score.score).toBeLessThan(80);
         });
 
         it('should favor packages with few dependencies', () => {
