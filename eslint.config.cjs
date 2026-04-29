@@ -1,3 +1,7 @@
+if (typeof globalThis.structuredClone !== 'function') {
+    globalThis.structuredClone = (value) => JSON.parse(JSON.stringify(value));
+}
+
 const tsParser = require('@typescript-eslint/parser');
 const tsPlugin = require('@typescript-eslint/eslint-plugin');
 
