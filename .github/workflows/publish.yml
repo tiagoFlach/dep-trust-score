@@ -1,44 +1,18 @@
-name: Publish to npm
+name: Publish to npm (tag)
 
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
   workflow_dispatch:
-    inputs:
-      npm_tag:
-        description: 'NPM tag (latest, beta, alpha)'
-        required: false
-        default: 'latest'
+
+permissions:
+  contents: read
+  id-token: write # necessário para --provenance
 
 jobs:
-  validate:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version: '20.x'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
-      - name: Run tests
-        run: npm test
-
-      - name: Run linter
-        run: npm run lint
-
   publish:
     runs-on: ubuntu-latest
-    needs: validate
 
     steps:
       - name: Checkout code
@@ -49,91 +23,35 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Validate tag and package version
+        run: |
+          TAG="${GITHUB_REF_NAME}"
+          PKG_VERSION="$(node -p "require('./package.json').version")"
+
+          if [ -z "$PKG_VERSION" ]; then
+            echo "Version not found in package.json"
+            exit 1
+          fi
+
+          if [ "${TAG#v}" != "$PKG_VERSION" ]; then
+            echo "Tag ($TAG) does not match package.json version ($PKG_VERSION)"
+            exit 1
+          fi
+
+          echo "Publishing dep-trust-score@$PKG_VERSION"
 
       - name: Build
         run: npm run build
 
-      - name: Check version consistency
-        run: |
-          VERSION=$(jq -r '.version' package.json)
-          if [ -z "$VERSION" ]; then
-            echo "❌ Version not found in package.json"
-            exit 1
-          fi
-          echo "📦 Publishing version: $VERSION"
+      - name: Test
+        run: npm test
 
       - name: Publish to npm
-        run: |
-          TAG="${{ github.event.inputs.npm_tag || 'latest' }}"
-          echo "Publishing with tag: $TAG"
-          npm publish --tag $TAG
+        run: npm publish --access public --provenance
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-      - name: Create GitHub Release Asset
-        uses: actions/upload-release-asset@v1
-        if: github.event_name == 'release'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: ./dist/index.js
-          asset_name: dep-trust-score.js
-          asset_content_type: application/javascript
-
-      - name: Comment on release
-        if: github.event_name == 'release'
-        uses: actions/github-script@v6
-        with:
-          script: |
-            const version = require('./package.json').version;
-            const comment = `
-            ✅ **Published to npm!**
-
-            \`\`\`bash
-            npm install -g dep-trust-score@${version}
-            \`\`\`
-
-            📚 [Documentation](https://github.com/${{ github.repository }})
-            🚀 [npm Package](https://www.npmjs.com/package/dep-trust-score)
-            `;
-
-            github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: comment
-            });
-
-  notify-success:
-    runs-on: ubuntu-latest
-    needs: publish
-    if: success()
-
-    steps:
-      - name: Extract version
-        id: version
-        run: |
-          VERSION="${{ github.ref }}" | sed 's/refs\/tags\///'
-          echo "version=$VERSION" >> $GITHUB_OUTPUT
-
-      - name: Create success message
-        run: |
-          echo "✅ Successfully published dep-trust-score@${{ steps.version.outputs.version }}"
-          echo "📦 Available at: https://www.npmjs.com/package/dep-trust-score"
-          echo "📚 Documentation: https://github.com/${{ github.repository }}"
-
-  notify-failure:
-    runs-on: ubuntu-latest
-    needs: publish
-    if: failure()
-
-    steps:
-      - name: Post failure notification
-        run: |
-          echo "❌ Publication failed!"
-          echo "Check the logs above for details"
-          exit 1
