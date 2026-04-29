@@ -1,7 +1,7 @@
 # dep-trust-score
 
 [![npm version](https://badge.fury.io/js/dep-trust-score.svg)](https://badge.fury.io/js/dep-trust-score)
-[![Build Status](https://github.com/your-org/dep-trust-score/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/dep-trust-score)
+[![Build Status](https://github.com/tiagoFlach/dep-trust-score/actions/workflows/ci.yml/badge.svg)](https://github.com/tiagoFlach/dep-trust-score)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > **Quantify npm package reliability with transparent, auditable trust scores based on maintenance and security signals.**
@@ -520,8 +520,8 @@ MIT
 ## Support
 
 - 📖 [Documentation](docs/)
-- 🐛 [Issue Tracker](https://github.com/your-org/dep-trust-score/issues)
-- 💬 [Discussions](https://github.com/your-org/dep-trust-score/discussions)
+- 🐛 [Issue Tracker](https://github.com/tiagoFlach/dep-trust-score/issues)
+- 💬 [Discussions](https://github.com/tiagoFlach/dep-trust-score/discussions)
 
 ---
 

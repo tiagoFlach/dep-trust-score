@@ -54,7 +54,7 @@ Enhancement suggestions are tracked as GitHub issues. When creating an issue:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/dep-trust-score.git
+git clone https://github.com/tiagoFlach/dep-trust-score.git
 cd dep-trust-score
 
 # Install dependencies
