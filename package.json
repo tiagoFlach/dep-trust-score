@@ -1,6 +1,6 @@
 {
   "name": "dep-trust-score",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Calculate npm package reliability scores based on maintenance and security signals",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
