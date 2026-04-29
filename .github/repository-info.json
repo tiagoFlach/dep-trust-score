@@ -1,0 +1,152 @@
+{
+  "name": "dep-trust-score",
+  "title": "NPM Dependency Trust Score",
+  "description": "Quantify npm package reliability with transparent, auditable trust scores based on maintenance and security signals.",
+  "longDescription": "dep-trust-score is a TypeScript npm package that calculates the trustworthiness of npm dependencies using 8 objective factors: publication frequency, package age, maintainers, version history, vulnerabilities, dependency complexity, abandonment signals, and package quality. Use it in CLI, Node.js applications, or CI/CD pipelines.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiagoFlach/dep-trust-score.git"
+  },
+  "homepage": "https://github.com/tiagoFlach/dep-trust-score#readme",
+  "author": {
+    "name": "Tiago Flach",
+    "url": "https://github.com/tiagoFlach"
+  },
+  "license": "MIT",
+  "keywords": [
+    "npm",
+    "dependencies",
+    "trust-score",
+    "security",
+    "quality",
+    "maintenance",
+    "vulnerabilities",
+    "supply-chain",
+    "package-analysis",
+    "typescript"
+  ],
+  "topics": [
+    "npm",
+    "npm-package",
+    "dependencies",
+    "security",
+    "package-manager",
+    "trust-score",
+    "quality-assurance",
+    "supply-chain-security"
+  ],
+  "packageTypes": ["cli", "library"],
+  "features": [
+    "8-factor trust scoring system",
+    "Transparent, explainable scores",
+    "Configurable weights per context",
+    "CLI and programmatic API",
+    "Local caching with offline mode",
+    "Batch analysis",
+    "Multiple output formats (JSON, text, table)",
+    "CI/CD integration examples",
+    "TypeScript support",
+    "Jest test suite"
+  ],
+  "useCases": [
+    "Evaluate npm package reliability",
+    "Detect supply chain attacks",
+    "Enforce dependency quality standards",
+    "CI/CD pipeline integration",
+    "Dependency auditing",
+    "Risk assessment"
+  ],
+  "scoreInterpretation": {
+    "80-100": "Excellent - Use with confidence",
+    "60-79": "Good - Production safe",
+    "40-59": "Caution - Consider alternatives",
+    "20-39": "Critical - Avoid production",
+    "0-19": "Extreme - Strongly discouraged"
+  },
+  "scoringFactors": {
+    "publicationFrequency": {
+      "weight": 15,
+      "description": "How frequently are new versions published?"
+    },
+    "packageAge": {
+      "weight": 10,
+      "description": "Is it in the ideal maintenance window?"
+    },
+    "maintainers": {
+      "weight": 15,
+      "description": "How many people maintain it?"
+    },
+    "versionHistory": {
+      "weight": 10,
+      "description": "What's the project maturity?"
+    },
+    "vulnerabilities": {
+      "weight": 25,
+      "description": "Are there known CVEs?"
+    },
+    "dependencies": {
+      "weight": 10,
+      "description": "How complex is the dependency tree?"
+    },
+    "abandonmentSignals": {
+      "weight": 10,
+      "description": "Is it being abandoned?"
+    },
+    "packageQuality": {
+      "weight": 5,
+      "description": "Does it have documentation, license, etc?"
+    }
+  },
+  "commands": {
+    "cli": {
+      "check": "Analyze a single package",
+      "batch": "Analyze multiple packages",
+      "explain": "Show detailed factor breakdown",
+      "cache": "Manage cache",
+      "config": "Display configuration"
+    },
+    "api": {
+      "analyzePackage": "Analyze single package",
+      "analyzePackages": "Batch analysis",
+      "setWeights": "Configure weights",
+      "getCachedScore": "Get cached result"
+    }
+  },
+  "documentation": {
+    "README": "Overview and installation",
+    "QUICK_START": "Get started in minutes",
+    "API_REFERENCE": "Complete API documentation",
+    "CONFIGURATION": "Weight system and customization",
+    "CI_CD_INTEGRATION": "Pipeline integration examples",
+    "CONTRIBUTING": "Contribution guidelines"
+  },
+  "integrations": [
+    "GitHub Actions",
+    "GitLab CI",
+    "Jenkins",
+    "Azure Pipelines",
+    "npm scripts",
+    "Shell scripts"
+  ],
+  "badges": {
+    "npm": "https://badge.fury.io/js/dep-trust-score.svg",
+    "github": "https://github.com/tiagoFlach/dep-trust-score/actions/workflows/test.yml/badge.svg",
+    "license": "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "dependencyCheck": "https://github.com/tiagoFlach/dep-trust-score/actions/workflows/dependency-check.yml/badge.svg"
+  },
+  "links": {
+    "npm": "https://www.npmjs.com/package/dep-trust-score",
+    "github": "https://github.com/tiagoFlach/dep-trust-score",
+    "issues": "https://github.com/tiagoFlach/dep-trust-score/issues",
+    "discussions": "https://github.com/tiagoFlach/dep-trust-score/discussions"
+  },
+  "installation": {
+    "global": "npm install -g dep-trust-score",
+    "local": "npm install --save-dev dep-trust-score"
+  },
+  "versions": {
+    "node": "16+",
+    "npm": "7+",
+    "typescript": "4.5+"
+  }
+}
