@@ -97,7 +97,7 @@ jobs:
 
       - name: Upload trust scores
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: trust-scores
           path: trust-scores.json
