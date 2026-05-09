@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-05-08T02:37:36.952Z
+- Generated at: 2026-05-09T02:30:48.337Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -21,11 +21,11 @@
 | 10 | @babel/plugin-transform-react-jsx-source | 7.27.1 | 91 | 95 |
 | 11 | jest-get-type | 29.6.3 | 89.25 | 95 |
 | 12 | vscode-languageserver | 9.0.1 | 89.25 | 95 |
-| 13 | @azure/logger | 1.3.0 | 89.13 | 95 |
+| 13 | @azure/logger | 1.3.0 | 89.14 | 95 |
 | 14 | diff-sequences | 29.6.3 | 89 | 95 |
 | 15 | @chakra-ui/hooks | 2.4.2 | 89 | 95 |
 | 16 | tslib | 2.8.1 | 88.5 | 95 |
 | 17 | @radix-ui/react-id | 1.1.1 | 88.5 | 95 |
-| 18 | @azure/core-lro | 3.3.1 | 88.26 | 95 |
-| 19 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
-| 20 | vscode-languageserver-types | 3.17.5 | 88.25 | 95 |
+| 18 | @azure/core-lro | 3.3.1 | 88.28 | 95 |
+| 19 | @babel/plugin-transform-react-display-name | 7.28.0 | 88.26 | 95 |
+| 20 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
