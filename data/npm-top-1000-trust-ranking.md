@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-05-15T02:44:08.642Z
+- Generated at: 2026-05-16T02:33:18.742Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -22,10 +22,10 @@
 | 11 | react-bootstrap | 2.10.10 | 89.75 | 95 |
 | 12 | jest-get-type | 29.6.3 | 89.25 | 95 |
 | 13 | vscode-languageserver | 9.0.1 | 89.25 | 95 |
-| 14 | @azure/logger | 1.3.0 | 89.22 | 95 |
+| 14 | @azure/logger | 1.3.0 | 89.24 | 95 |
 | 15 | diff-sequences | 29.6.3 | 89 | 95 |
 | 16 | @chakra-ui/hooks | 2.4.2 | 89 | 95 |
 | 17 | tslib | 2.8.1 | 88.5 | 95 |
 | 18 | @radix-ui/react-id | 1.1.1 | 88.5 | 95 |
-| 19 | @azure/core-lro | 3.3.1 | 88.36 | 95 |
-| 20 | @babel/plugin-transform-react-display-name | 7.28.0 | 88.34 | 95 |
+| 19 | @azure/core-lro | 3.3.1 | 88.37 | 95 |
+| 20 | @babel/plugin-transform-react-display-name | 7.28.0 | 88.35 | 95 |
