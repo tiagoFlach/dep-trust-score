@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-06-05T02:56:39.656Z
+- Generated at: 2026-06-06T02:43:43.324Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -10,22 +10,22 @@
 | Rank | Package | Version | Trust Score | Confidence |
 |---:|---|---|---:|---:|
 | 1 | @azure/abort-controller | 2.1.2 | 95 | 95 |
-| 2 | @radix-ui/react-id | 1.1.1 | 93.5 | 95 |
-| 3 | @nrwl/js | 19.8.4 | 91.25 | 95 |
-| 4 | react-bootstrap | 2.10.10 | 89.75 | 95 |
-| 5 | @azure/logger | 1.3.0 | 89.51 | 95 |
-| 6 | jest-get-type | 29.6.3 | 89.25 | 95 |
-| 7 | diff-sequences | 29.6.3 | 89 | 95 |
-| 8 | @chakra-ui/hooks | 2.4.2 | 89 | 95 |
-| 9 | @azure/core-lro | 3.3.1 | 88.65 | 95 |
-| 10 | tslib | 2.8.1 | 88.5 | 95 |
-| 11 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
-| 12 | @nrwl/tao | 19.8.4 | 88 | 95 |
-| 13 | @nrwl/cli | 15.9.3 | 88 | 95 |
-| 14 | @nrwl/jest | 19.8.4 | 88 | 95 |
-| 15 | @nrwl/storybook | 19.8.4 | 88 | 95 |
-| 16 | @nrwl/react | 19.8.4 | 88 | 95 |
-| 17 | react-native-gradle-plugin | 0.71.19 | 87.5 | 95 |
-| 18 | bcrypt | 6.0.0 | 87.5 | 95 |
-| 19 | @radix-ui/react-primitive | 2.1.4 | 87.41 | 95 |
-| 20 | @radix-ui/react-slot | 1.2.4 | 87.41 | 95 |
+| 2 | @nrwl/js | 19.8.4 | 91.25 | 95 |
+| 3 | react-bootstrap | 2.10.10 | 89.75 | 95 |
+| 4 | @azure/logger | 1.3.0 | 89.53 | 95 |
+| 5 | jest-get-type | 29.6.3 | 89.25 | 95 |
+| 6 | diff-sequences | 29.6.3 | 89 | 95 |
+| 7 | @chakra-ui/hooks | 2.4.2 | 89 | 95 |
+| 8 | @azure/core-lro | 3.3.1 | 88.66 | 95 |
+| 9 | tslib | 2.8.1 | 88.5 | 95 |
+| 10 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
+| 11 | @nrwl/tao | 19.8.4 | 88 | 95 |
+| 12 | @nrwl/cli | 15.9.3 | 88 | 95 |
+| 13 | @nrwl/jest | 19.8.4 | 88 | 95 |
+| 14 | @nrwl/storybook | 19.8.4 | 88 | 95 |
+| 15 | @nrwl/react | 19.8.4 | 88 | 95 |
+| 16 | react-native-gradle-plugin | 0.71.19 | 87.5 | 95 |
+| 17 | bcrypt | 6.0.0 | 87.5 | 95 |
+| 18 | expo-application | 56.0.3 | 87.41 | 95 |
+| 19 | graphql | 16.14.1 | 87.31 | 95 |
+| 20 | confusing-browser-globals | 1.0.11 | 87.25 | 95 |
