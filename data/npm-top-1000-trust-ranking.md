@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-06-09T02:42:34.138Z
+- Generated at: 2026-06-10T02:55:59.111Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -12,11 +12,11 @@
 | 1 | @azure/abort-controller | 2.1.2 | 95 | 95 |
 | 2 | @nrwl/js | 19.8.4 | 91.25 | 95 |
 | 3 | react-bootstrap | 2.10.10 | 89.75 | 95 |
-| 4 | @azure/logger | 1.3.0 | 89.57 | 95 |
+| 4 | @azure/logger | 1.3.0 | 89.58 | 95 |
 | 5 | jest-get-type | 29.6.3 | 89.25 | 95 |
 | 6 | diff-sequences | 29.6.3 | 89 | 95 |
 | 7 | @chakra-ui/hooks | 2.4.2 | 89 | 95 |
-| 8 | @azure/core-lro | 3.3.1 | 88.7 | 95 |
+| 8 | @azure/core-lro | 3.3.1 | 88.72 | 95 |
 | 9 | tslib | 2.8.1 | 88.5 | 95 |
 | 10 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
 | 11 | @nrwl/tao | 19.8.4 | 88 | 95 |
@@ -26,6 +26,6 @@
 | 15 | @nrwl/react | 19.8.4 | 88 | 95 |
 | 16 | react-native-gradle-plugin | 0.71.19 | 87.5 | 95 |
 | 17 | bcrypt | 6.0.0 | 87.5 | 95 |
-| 18 | expo-application | 56.0.3 | 87.46 | 95 |
-| 19 | graphql | 16.14.1 | 87.35 | 95 |
-| 20 | @babel/plugin-proposal-json-strings | 7.18.6 | 87.25 | 95 |
+| 18 | expo-application | 56.0.3 | 87.47 | 95 |
+| 19 | graphql | 16.14.2 | 87.26 | 95 |
+| 20 | confusing-browser-globals | 1.0.11 | 87.25 | 95 |
