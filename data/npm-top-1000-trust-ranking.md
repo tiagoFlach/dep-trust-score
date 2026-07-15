@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-07-14T02:01:29.300Z
+- Generated at: 2026-07-15T01:58:23.155Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -24,8 +24,8 @@
 | 13 | react-select | 5.10.2 | 87.75 | 95 |
 | 14 | react-native-gradle-plugin | 0.71.19 | 87.5 | 95 |
 | 15 | bcrypt | 6.0.0 | 87.5 | 95 |
-| 16 | graphql | 17.0.2 | 87.4 | 95 |
-| 17 | confusing-browser-globals | 1.0.11 | 87.25 | 95 |
-| 18 | @babel/plugin-proposal-json-strings | 7.18.6 | 87.25 | 95 |
-| 19 | react-app-polyfill | 3.0.0 | 87.25 | 95 |
-| 20 | @hapi/hoek | 11.0.7 | 87.25 | 95 |
+| 16 | graphql | 17.0.2 | 87.41 | 95 |
+| 17 | expo-application | 57.0.0 | 87.26 | 95 |
+| 18 | confusing-browser-globals | 1.0.11 | 87.25 | 95 |
+| 19 | @babel/plugin-proposal-json-strings | 7.18.6 | 87.25 | 95 |
+| 20 | react-app-polyfill | 3.0.0 | 87.25 | 95 |
