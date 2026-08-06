@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-08-05T02:01:51.963Z
+- Generated at: 2026-08-06T02:06:25.166Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -23,9 +23,9 @@
 | 12 | @nrwl/storybook | 19.8.4 | 88 | 95 |
 | 13 | @nrwl/react | 19.8.4 | 88 | 95 |
 | 14 | react-select | 5.10.2 | 87.75 | 95 |
-| 15 | graphql | 17.0.2 | 87.7 | 95 |
+| 15 | graphql | 17.0.2 | 87.71 | 95 |
 | 16 | react-native-gradle-plugin | 0.71.19 | 87.5 | 95 |
 | 17 | bcrypt | 6.0.0 | 87.5 | 95 |
-| 18 | @babel/plugin-proposal-json-strings | 7.18.6 | 87.25 | 95 |
-| 19 | confusing-browser-globals | 1.0.11 | 87.25 | 95 |
+| 18 | confusing-browser-globals | 1.0.11 | 87.25 | 95 |
+| 19 | @babel/plugin-proposal-json-strings | 7.18.6 | 87.25 | 95 |
 | 20 | react-app-polyfill | 3.0.0 | 87.25 | 95 |
