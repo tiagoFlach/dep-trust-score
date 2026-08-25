@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-08-24T00:59:20.631Z
+- Generated at: 2026-08-25T00:59:00.246Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -22,10 +22,10 @@
 | 11 | @nrwl/jest | 19.8.4 | 88 | 95 |
 | 12 | @nrwl/storybook | 19.8.4 | 88 | 95 |
 | 13 | @nrwl/react | 19.8.4 | 88 | 95 |
-| 14 | graphql | 17.0.2 | 87.96 | 95 |
+| 14 | graphql | 17.0.2 | 87.97 | 95 |
 | 15 | react-select | 5.10.2 | 87.75 | 95 |
 | 16 | @vue/cli-plugin-typescript | 5.0.9 | 87.75 | 95 |
 | 17 | react-native-gradle-plugin | 0.71.19 | 87.5 | 95 |
 | 18 | bcrypt | 6.0.0 | 87.5 | 95 |
-| 19 | workbox-core | 7.4.1 | 87.27 | 95 |
-| 20 | @babel/plugin-proposal-json-strings | 7.18.6 | 87.25 | 95 |
+| 19 | workbox-core | 7.4.1 | 87.29 | 95 |
+| 20 | confusing-browser-globals | 1.0.11 | 87.25 | 95 |
