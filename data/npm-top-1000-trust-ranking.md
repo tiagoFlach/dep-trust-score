@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-08-27T06:54:02.053Z
+- Generated at: 2026-08-28T08:42:05.480Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -17,7 +17,7 @@
 | 6 | rxjs | 7.8.2 | 88.75 | 95 |
 | 7 | tslib | 2.8.1 | 88.5 | 95 |
 | 8 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
-| 9 | graphql | 17.0.2 | 88 | 95 |
+| 9 | graphql | 17.0.2 | 88.02 | 95 |
 | 10 | @nrwl/tao | 19.8.4 | 88 | 95 |
 | 11 | @nrwl/cli | 15.9.3 | 88 | 95 |
 | 12 | @nrwl/jest | 19.8.4 | 88 | 95 |
@@ -27,5 +27,5 @@
 | 16 | @vue/cli-plugin-typescript | 5.0.9 | 87.75 | 95 |
 | 17 | react-native-gradle-plugin | 0.71.19 | 87.5 | 95 |
 | 18 | bcrypt | 6.0.0 | 87.5 | 95 |
-| 19 | workbox-core | 7.4.1 | 87.32 | 95 |
+| 19 | workbox-core | 7.4.1 | 87.33 | 95 |
 | 20 | @babel/plugin-proposal-json-strings | 7.18.6 | 87.25 | 95 |
