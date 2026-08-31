@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-08-30T03:13:59.366Z
+- Generated at: 2026-08-31T03:08:27.215Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -19,7 +19,7 @@
 | 8 | rxjs | 7.8.2 | 88.75 | 95 |
 | 9 | tslib | 2.8.1 | 88.5 | 95 |
 | 10 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
-| 11 | graphql | 17.0.2 | 88.04 | 95 |
+| 11 | graphql | 17.0.2 | 88.06 | 95 |
 | 12 | @nrwl/tao | 19.8.4 | 88 | 95 |
 | 13 | @nrwl/cli | 15.9.3 | 88 | 95 |
 | 14 | @nrwl/jest | 19.8.4 | 88 | 95 |
