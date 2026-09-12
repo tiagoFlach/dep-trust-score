@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-09-11T02:39:50.152Z
+- Generated at: 2026-09-12T02:49:19.228Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -20,7 +20,7 @@
 | 9 | prismjs | 1.30.0 | 88.5 | 95 |
 | 10 | tslib | 2.8.1 | 88.5 | 95 |
 | 11 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
-| 12 | graphql | 17.0.2 | 88.21 | 95 |
+| 12 | graphql | 17.0.2 | 88.22 | 95 |
 | 13 | @nrwl/tao | 19.8.4 | 88 | 95 |
 | 14 | @nrwl/cli | 15.9.3 | 88 | 95 |
 | 15 | @nrwl/jest | 19.8.4 | 88 | 95 |
@@ -28,4 +28,4 @@
 | 17 | @nrwl/react | 19.8.4 | 88 | 95 |
 | 18 | react-select | 5.10.2 | 87.75 | 95 |
 | 19 | @vue/cli-plugin-typescript | 5.0.9 | 87.75 | 95 |
-| 20 | workbox-core | 7.4.1 | 87.52 | 95 |
+| 20 | workbox-core | 7.4.1 | 87.53 | 95 |
