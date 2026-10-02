@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T03:46:21.819Z",
+  "generatedAt": "2026-10-02T03:44:53.871Z",
   "sourceList": "/home/runner/work/dep-trust-score/dep-trust-score/data/npm-top-1000-popular.txt",
   "totalInput": 1000,
   "totalRanked": 1000,
@@ -56,23 +56,23 @@
     },
     {
       "rank": 8,
+      "package": "graphql",
+      "version": "17.0.2",
+      "trustScore": 88.5,
+      "confidence": 95
+    },
+    {
+      "rank": 9,
       "package": "prismjs",
       "version": "1.30.0",
       "trustScore": 88.5,
       "confidence": 95
     },
     {
-      "rank": 9,
+      "rank": 10,
       "package": "tslib",
       "version": "2.8.1",
       "trustScore": 88.5,
-      "confidence": 95
-    },
-    {
-      "rank": 10,
-      "package": "graphql",
-      "version": "17.0.2",
-      "trustScore": 88.48,
       "confidence": 95
     },
     {
@@ -121,7 +121,7 @@
       "rank": 17,
       "package": "workbox-core",
       "version": "7.4.1",
-      "trustScore": 87.8,
+      "trustScore": 87.81,
       "confidence": 95
     },
     {
@@ -149,35 +149,35 @@
       "rank": 21,
       "package": "@babel/plugin-transform-dotall-regex",
       "version": "8.0.1",
-      "trustScore": 87.7,
+      "trustScore": 87.71,
       "confidence": 95
     },
     {
       "rank": 22,
       "package": "@babel/plugin-transform-typeof-symbol",
       "version": "8.0.1",
-      "trustScore": 87.7,
+      "trustScore": 87.71,
       "confidence": 95
     },
     {
       "rank": 23,
       "package": "@babel/plugin-transform-react-inline-elements",
       "version": "8.0.1",
-      "trustScore": 87.7,
+      "trustScore": 87.71,
       "confidence": 95
     },
     {
       "rank": 24,
       "package": "eslint-import-resolver-typescript",
       "version": "4.4.5",
-      "trustScore": 87.67,
+      "trustScore": 87.68,
       "confidence": 95
     },
     {
       "rank": 25,
       "package": "@babel/plugin-syntax-typescript",
       "version": "8.0.3",
-      "trustScore": 87.56,
+      "trustScore": 87.58,
       "confidence": 95
     },
     {
@@ -198,7 +198,7 @@
       "rank": 28,
       "package": "react-chartjs-2",
       "version": "5.3.1",
-      "trustScore": 87.39,
+      "trustScore": 87.4,
       "confidence": 95
     },
     {
@@ -233,28 +233,28 @@
       "rank": 33,
       "package": "@react-navigation/routers",
       "version": "7.6.4",
-      "trustScore": 87.24,
+      "trustScore": 87.25,
       "confidence": 95
     },
     {
       "rank": 34,
       "package": "mobx",
       "version": "7.0.5",
-      "trustScore": 87.07,
+      "trustScore": 87.09,
       "confidence": 95
     },
     {
       "rank": 35,
       "package": "expo-status-bar",
       "version": "57.0.1",
-      "trustScore": 87.06,
+      "trustScore": 87.08,
       "confidence": 95
     },
     {
       "rank": 36,
       "package": "cron",
       "version": "4.4.0",
-      "trustScore": 87.05,
+      "trustScore": 87.06,
       "confidence": 95
     },
     {
@@ -282,21 +282,21 @@
       "rank": 40,
       "package": "@babel/template",
       "version": "8.0.0",
-      "trustScore": 86.96,
+      "trustScore": 86.97,
       "confidence": 95
     },
     {
       "rank": 41,
       "package": "@babel/helper-wrap-function",
       "version": "8.0.0",
-      "trustScore": 86.96,
+      "trustScore": 86.97,
       "confidence": 95
     },
     {
       "rank": 42,
       "package": "@babel/helper-builder-react-jsx",
       "version": "8.0.1",
-      "trustScore": 86.95,
+      "trustScore": 86.96,
       "confidence": 95
     },
     {
@@ -310,49 +310,49 @@
       "rank": 44,
       "package": "workbox-expiration",
       "version": "7.4.1",
-      "trustScore": 86.8,
+      "trustScore": 86.81,
       "confidence": 95
     },
     {
       "rank": 45,
-      "package": "workbox-routing",
+      "package": "workbox-strategies",
       "version": "7.4.1",
-      "trustScore": 86.8,
+      "trustScore": 86.81,
       "confidence": 95
     },
     {
       "rank": 46,
-      "package": "workbox-strategies",
+      "package": "workbox-routing",
       "version": "7.4.1",
-      "trustScore": 86.8,
+      "trustScore": 86.81,
       "confidence": 95
     },
     {
       "rank": 47,
       "package": "workbox-range-requests",
       "version": "7.4.1",
-      "trustScore": 86.8,
+      "trustScore": 86.81,
       "confidence": 95
     },
     {
       "rank": 48,
       "package": "workbox-broadcast-update",
       "version": "7.4.1",
-      "trustScore": 86.8,
+      "trustScore": 86.81,
       "confidence": 95
     },
     {
       "rank": 49,
-      "package": "workbox-cacheable-response",
+      "package": "workbox-streams",
       "version": "7.4.1",
-      "trustScore": 86.8,
+      "trustScore": 86.81,
       "confidence": 95
     },
     {
       "rank": 50,
-      "package": "workbox-streams",
+      "package": "workbox-cacheable-response",
       "version": "7.4.1",
-      "trustScore": 86.8,
+      "trustScore": 86.81,
       "confidence": 95
     },
     {
@@ -364,14 +364,14 @@
     },
     {
       "rank": 52,
-      "package": "babel-plugin-apply-mdx-type-prop",
+      "package": "babel-plugin-extract-import-names",
       "version": "2.0.0",
       "trustScore": 86.75,
       "confidence": 95
     },
     {
       "rank": 53,
-      "package": "babel-plugin-extract-import-names",
+      "package": "babel-plugin-apply-mdx-type-prop",
       "version": "2.0.0",
       "trustScore": 86.75,
       "confidence": 95
@@ -380,28 +380,28 @@
       "rank": 54,
       "package": "@babel/plugin-transform-react-jsx",
       "version": "8.0.1",
-      "trustScore": 86.7,
+      "trustScore": 86.71,
       "confidence": 95
     },
     {
       "rank": 55,
       "package": "@babel/preset-typescript",
       "version": "8.0.1",
-      "trustScore": 86.7,
+      "trustScore": 86.71,
       "confidence": 95
     },
     {
       "rank": 56,
       "package": "@docusaurus/utils-common",
       "version": "3.10.2",
-      "trustScore": 86.63,
+      "trustScore": 86.64,
       "confidence": 95
     },
     {
       "rank": 57,
       "package": "@playwright/test",
       "version": "1.63.0",
-      "trustScore": 86.61,
+      "trustScore": 86.62,
       "confidence": 95
     },
     {
@@ -415,7 +415,7 @@
       "rank": 59,
       "package": "@babel/plugin-transform-react-constant-elements",
       "version": "8.0.5",
-      "trustScore": 86.53,
+      "trustScore": 86.54,
       "confidence": 95
     },
     {
@@ -443,55 +443,55 @@
       "rank": 63,
       "package": "jest",
       "version": "30.5.2",
-      "trustScore": 86.42,
+      "trustScore": 86.44,
       "confidence": 95
     },
     {
       "rank": 64,
       "package": "@opentelemetry/context-async-hooks",
       "version": "2.11.0",
-      "trustScore": 86.42,
+      "trustScore": 86.43,
       "confidence": 95
     },
     {
       "rank": 65,
       "package": "@opentelemetry/propagator-b3",
       "version": "2.11.0",
-      "trustScore": 86.42,
+      "trustScore": 86.43,
       "confidence": 95
     },
     {
       "rank": 66,
       "package": "@formatjs/intl",
       "version": "6.1.2",
-      "trustScore": 86.4,
+      "trustScore": 86.42,
       "confidence": 95
     },
     {
       "rank": 67,
       "package": "redis",
       "version": "6.3.0",
-      "trustScore": 86.26,
+      "trustScore": 86.27,
       "confidence": 95
     },
     {
       "rank": 68,
+      "package": "@graphql-tools/merge",
+      "version": "9.2.6",
+      "trustScore": 86.27,
+      "confidence": 95
+    },
+    {
+      "rank": 69,
       "package": "@babel/plugin-proposal-optional-chaining",
       "version": "7.21.0",
       "trustScore": 86.25,
       "confidence": 95
     },
     {
-      "rank": 69,
+      "rank": 70,
       "package": "eslint-config-react-app",
       "version": "7.0.1",
-      "trustScore": 86.25,
-      "confidence": 95
-    },
-    {
-      "rank": 70,
-      "package": "@graphql-tools/merge",
-      "version": "9.2.6",
       "trustScore": 86.25,
       "confidence": 95
     },
@@ -506,42 +506,42 @@
       "rank": 72,
       "package": "ag-grid-community",
       "version": "36.2.0",
-      "trustScore": 86.2,
+      "trustScore": 86.22,
       "confidence": 95
     },
     {
       "rank": 73,
       "package": "@apollo/client",
       "version": "4.3.1",
-      "trustScore": 86.17,
+      "trustScore": 86.18,
       "confidence": 95
     },
     {
       "rank": 74,
       "package": "typescript",
       "version": "7.0.2",
-      "trustScore": 86.16,
+      "trustScore": 86.17,
       "confidence": 95
     },
     {
       "rank": 75,
       "package": "@graphql-codegen/typescript-react-apollo",
       "version": "5.0.0",
-      "trustScore": 86.11,
+      "trustScore": 86.13,
       "confidence": 95
     },
     {
       "rank": 76,
       "package": "@azure/logger",
       "version": "1.4.0",
-      "trustScore": 86.09,
+      "trustScore": 86.1,
       "confidence": 95
     },
     {
       "rank": 77,
       "package": "@azure/abort-controller",
       "version": "2.2.0",
-      "trustScore": 86.09,
+      "trustScore": 86.1,
       "confidence": 95
     },
     {
@@ -604,35 +604,35 @@
       "rank": 86,
       "package": "@babel/preset-react",
       "version": "8.0.1",
-      "trustScore": 85.95,
+      "trustScore": 85.96,
       "confidence": 95
     },
     {
       "rank": 87,
       "package": "inversify",
       "version": "8.2.3",
-      "trustScore": 85.95,
+      "trustScore": 85.96,
       "confidence": 95
     },
     {
       "rank": 88,
       "package": "@graphql-codegen/typescript",
       "version": "6.1.0",
-      "trustScore": 85.94,
+      "trustScore": 85.95,
       "confidence": 95
     },
     {
       "rank": 89,
       "package": "@graphql-codegen/schema-ast",
       "version": "6.1.0",
-      "trustScore": 85.94,
+      "trustScore": 85.95,
       "confidence": 95
     },
     {
       "rank": 90,
       "package": "workbox-webpack-plugin",
       "version": "7.4.1",
-      "trustScore": 85.8,
+      "trustScore": 85.81,
       "confidence": 95
     },
     {
@@ -660,21 +660,21 @@
       "rank": 94,
       "package": "@babel/code-frame",
       "version": "8.0.6",
-      "trustScore": 85.67,
+      "trustScore": 85.69,
       "confidence": 95
     },
     {
       "rank": 95,
       "package": "zustand",
       "version": "5.0.15",
-      "trustScore": 85.67,
+      "trustScore": 85.69,
       "confidence": 95
     },
     {
       "rank": 96,
       "package": "@docusaurus/utils-validation",
       "version": "3.10.2",
-      "trustScore": 85.63,
+      "trustScore": 85.64,
       "confidence": 95
     },
     {
@@ -702,70 +702,70 @@
       "rank": 100,
       "package": "@babel/plugin-transform-react-display-name",
       "version": "8.0.1",
-      "trustScore": 85.45,
+      "trustScore": 85.46,
       "confidence": 95
     },
     {
       "rank": 101,
       "package": "@babel/plugin-transform-react-jsx-development",
       "version": "8.0.1",
-      "trustScore": 85.45,
+      "trustScore": 85.46,
       "confidence": 95
     },
     {
       "rank": 102,
       "package": "@babel/plugin-transform-react-pure-annotations",
       "version": "8.0.1",
-      "trustScore": 85.45,
+      "trustScore": 85.46,
       "confidence": 95
     },
     {
       "rank": 103,
       "package": "@babel/node",
       "version": "8.0.6",
-      "trustScore": 85.42,
+      "trustScore": 85.44,
       "confidence": 95
     },
     {
       "rank": 104,
       "package": "@opentelemetry/core",
       "version": "2.11.0",
-      "trustScore": 85.42,
+      "trustScore": 85.43,
       "confidence": 95
     },
     {
       "rank": 105,
       "package": "@opentelemetry/propagator-jaeger",
       "version": "2.11.0",
-      "trustScore": 85.42,
+      "trustScore": 85.43,
       "confidence": 95
     },
     {
       "rank": 106,
       "package": "@opentelemetry/sdk-trace-node",
       "version": "2.11.0",
-      "trustScore": 85.42,
+      "trustScore": 85.43,
       "confidence": 95
     },
     {
       "rank": 107,
       "package": "mobx-react",
       "version": "10.0.2",
-      "trustScore": 85.33,
+      "trustScore": 85.35,
       "confidence": 95
     },
     {
       "rank": 108,
       "package": "@graphql-codegen/core",
       "version": "6.2.1",
-      "trustScore": 85.29,
+      "trustScore": 85.3,
       "confidence": 95
     },
     {
       "rank": 109,
       "package": "cssdb",
       "version": "8.12.0",
-      "trustScore": 85.26,
+      "trustScore": 85.27,
       "confidence": 95
     },
     {
@@ -786,14 +786,14 @@
       "rank": 112,
       "package": "@azure/msal-node",
       "version": "7.0.0",
-      "trustScore": 85.1,
+      "trustScore": 85.12,
       "confidence": 95
     },
     {
       "rank": 113,
       "package": "@react-three/fiber",
       "version": "9.8.1",
-      "trustScore": 85.09,
+      "trustScore": 85.1,
       "confidence": 95
     },
     {
@@ -861,8 +861,8 @@
     },
     {
       "rank": 123,
-      "package": "@chakra-ui/react-env",
-      "version": "3.1.0",
+      "package": "@chakra-ui/live-region",
+      "version": "2.1.0",
       "trustScore": 85,
       "confidence": 95
     },
@@ -875,35 +875,35 @@
     },
     {
       "rank": 125,
-      "package": "@chakra-ui/transition",
-      "version": "2.1.0",
+      "package": "@chakra-ui/react-env",
+      "version": "3.1.0",
       "trustScore": 85,
       "confidence": 95
     },
     {
       "rank": 126,
-      "package": "@chakra-ui/live-region",
-      "version": "2.1.0",
-      "trustScore": 85,
-      "confidence": 95
-    },
-    {
-      "rank": 127,
-      "package": "@chakra-ui/counter",
-      "version": "2.1.0",
-      "trustScore": 85,
-      "confidence": 95
-    },
-    {
-      "rank": 128,
       "package": "@chakra-ui/focus-lock",
       "version": "2.1.0",
       "trustScore": 85,
       "confidence": 95
     },
     {
-      "rank": 129,
+      "rank": 127,
+      "package": "@chakra-ui/transition",
+      "version": "2.1.0",
+      "trustScore": 85,
+      "confidence": 95
+    },
+    {
+      "rank": 128,
       "package": "@chakra-ui/clickable",
+      "version": "2.1.0",
+      "trustScore": 85,
+      "confidence": 95
+    },
+    {
+      "rank": 129,
+      "package": "@chakra-ui/counter",
       "version": "2.1.0",
       "trustScore": 85,
       "confidence": 95
@@ -933,14 +933,14 @@
       "rank": 133,
       "package": "@graphql-codegen/typescript-resolvers",
       "version": "6.1.0",
-      "trustScore": 84.94,
+      "trustScore": 84.95,
       "confidence": 95
     },
     {
       "rank": 134,
       "package": "lit",
       "version": "3.3.3",
-      "trustScore": 84.92,
+      "trustScore": 84.93,
       "confidence": 95
     },
     {
@@ -954,41 +954,41 @@
       "rank": 136,
       "package": "@csstools/postcss-is-pseudo-class",
       "version": "6.0.1",
-      "trustScore": 84.83,
+      "trustScore": 84.84,
       "confidence": 95
     },
     {
       "rank": 137,
       "package": "tailwindcss",
       "version": "4.3.3",
-      "trustScore": 84.8,
+      "trustScore": 84.81,
       "confidence": 95
     },
     {
       "rank": 138,
       "package": "postcss-convert-values",
       "version": "9.0.6",
-      "trustScore": 84.77,
+      "trustScore": 84.78,
       "confidence": 95
     },
     {
       "rank": 139,
       "package": "@graphql-codegen/typescript-operations",
       "version": "6.1.9",
-      "trustScore": 84.77,
+      "trustScore": 84.78,
       "confidence": 95
     },
     {
       "rank": 140,
-      "package": "critters",
-      "version": "0.0.25",
-      "trustScore": 84.75,
+      "package": "@slack/types",
+      "version": "3.2.0",
+      "trustScore": 84.77,
       "confidence": 95
     },
     {
       "rank": 141,
-      "package": "@slack/types",
-      "version": "3.2.0",
+      "package": "critters",
+      "version": "0.0.25",
       "trustScore": 84.75,
       "confidence": 95
     },
@@ -1008,15 +1008,15 @@
     },
     {
       "rank": 144,
-      "package": "n",
-      "version": "10.2.0",
+      "package": "react-overlays",
+      "version": "5.2.1",
       "trustScore": 84.75,
       "confidence": 95
     },
     {
       "rank": 145,
-      "package": "react-overlays",
-      "version": "5.2.1",
+      "package": "n",
+      "version": "10.2.0",
       "trustScore": 84.75,
       "confidence": 95
     },
@@ -1024,28 +1024,28 @@
       "rank": 146,
       "package": "@uppy/react",
       "version": "6.0.0",
-      "trustScore": 84.74,
+      "trustScore": 84.75,
       "confidence": 95
     },
     {
       "rank": 147,
       "package": "@babel/helper-annotate-as-pure",
       "version": "8.0.0",
-      "trustScore": 84.71,
+      "trustScore": 84.72,
       "confidence": 95
     },
     {
       "rank": 148,
       "package": "jest-matcher-utils",
       "version": "30.5.2",
-      "trustScore": 84.67,
+      "trustScore": 84.69,
       "confidence": 95
     },
     {
       "rank": 149,
       "package": "react",
       "version": "19.3.0",
-      "trustScore": 84.54,
+      "trustScore": 84.56,
       "confidence": 95
     },
     {
@@ -1073,69 +1073,69 @@
       "rank": 153,
       "package": "@formatjs/ecma402-abstract",
       "version": "3.2.0",
-      "trustScore": 84.44,
+      "trustScore": 84.45,
       "confidence": 95
     },
     {
       "rank": 154,
       "package": "@radix-ui/react-primitive",
       "version": "2.1.10",
-      "trustScore": 84.43,
+      "trustScore": 84.45,
       "confidence": 95
     },
     {
       "rank": 155,
       "package": "@radix-ui/react-slot",
       "version": "1.3.3",
-      "trustScore": 84.43,
+      "trustScore": 84.45,
       "confidence": 95
     },
     {
       "rank": 156,
       "package": "@radix-ui/react-id",
       "version": "1.1.4",
-      "trustScore": 84.43,
+      "trustScore": 84.45,
       "confidence": 95
     },
     {
       "rank": 157,
       "package": "@radix-ui/react-context",
       "version": "1.2.2",
-      "trustScore": 84.43,
+      "trustScore": 84.45,
       "confidence": 95
     },
     {
       "rank": 158,
       "package": "vega-typings",
       "version": "2.3.0",
-      "trustScore": 84.4,
+      "trustScore": 84.41,
       "confidence": 95
     },
     {
       "rank": 159,
       "package": "expo-application",
       "version": "57.0.3",
-      "trustScore": 84.27,
+      "trustScore": 84.28,
       "confidence": 95
     },
     {
       "rank": 160,
+      "package": "@formatjs/intl-localematcher",
+      "version": "0.9.0",
+      "trustScore": 84.27,
+      "confidence": 95
+    },
+    {
+      "rank": 161,
       "package": "react-scripts",
       "version": "5.0.1",
       "trustScore": 84.25,
       "confidence": 95
     },
     {
-      "rank": 161,
+      "rank": 162,
       "package": "@typescript-eslint/experimental-utils",
       "version": "5.62.0",
-      "trustScore": 84.25,
-      "confidence": 95
-    },
-    {
-      "rank": 162,
-      "package": "@formatjs/intl-localematcher",
-      "version": "0.9.0",
       "trustScore": 84.25,
       "confidence": 95
     },
@@ -1156,8 +1156,8 @@
     {
       "rank": 165,
       "package": "@napi-rs/triples",
-      "version": "2.1.29",
-      "trustScore": 84.12,
+      "version": "2.1.30",
+      "trustScore": 84.01,
       "confidence": 95
     },
     {
@@ -1225,15 +1225,15 @@
     },
     {
       "rank": 175,
-      "package": "@chakra-ui/popper",
-      "version": "3.1.0",
+      "package": "@chakra-ui/portal",
+      "version": "2.1.0",
       "trustScore": 84,
       "confidence": 95
     },
     {
       "rank": 176,
-      "package": "@chakra-ui/portal",
-      "version": "2.1.0",
+      "package": "@chakra-ui/popper",
+      "version": "3.1.0",
       "trustScore": 84,
       "confidence": 95
     },
@@ -1248,28 +1248,28 @@
       "rank": 178,
       "package": "@mapbox/node-pre-gyp",
       "version": "2.0.3",
-      "trustScore": 83.97,
+      "trustScore": 83.99,
       "confidence": 95
     },
     {
       "rank": 179,
       "package": "jest-worker",
       "version": "30.5.1",
-      "trustScore": 83.91,
+      "trustScore": 83.92,
       "confidence": 95
     },
     {
       "rank": 180,
       "package": "lit-element",
       "version": "4.2.2",
-      "trustScore": 83.85,
+      "trustScore": 83.87,
       "confidence": 95
     },
     {
       "rank": 181,
       "package": "cssnano",
       "version": "9.1.2",
-      "trustScore": 83.77,
+      "trustScore": 83.78,
       "confidence": 95
     },
     {
@@ -1318,42 +1318,42 @@
       "rank": 188,
       "package": "@xstate/react",
       "version": "6.1.0",
-      "trustScore": 83.71,
+      "trustScore": 83.73,
       "confidence": 95
     },
     {
       "rank": 189,
       "package": "@babel/plugin-transform-regenerator",
       "version": "8.0.6",
-      "trustScore": 83.67,
+      "trustScore": 83.69,
       "confidence": 95
     },
     {
       "rank": 190,
       "package": "@discoveryjs/json-ext",
       "version": "1.1.0",
-      "trustScore": 83.56,
+      "trustScore": 83.57,
       "confidence": 95
     },
     {
       "rank": 191,
       "package": "workbox-recipes",
       "version": "7.4.1",
-      "trustScore": 83.55,
+      "trustScore": 83.56,
       "confidence": 95
     },
     {
       "rank": 192,
-      "package": "turbo",
-      "version": "2.11.5",
-      "trustScore": 83.54,
+      "package": "mz",
+      "version": "2.7.0",
+      "trustScore": 83.53,
       "confidence": 95
     },
     {
       "rank": 193,
-      "package": "mz",
-      "version": "2.7.0",
-      "trustScore": 83.53,
+      "package": "turbo",
+      "version": "2.11.6",
+      "trustScore": 83.51,
       "confidence": 95
     },
     {
@@ -1365,43 +1365,43 @@
     },
     {
       "rank": 195,
+      "package": "protobufjs",
+      "version": "8.8.0",
+      "trustScore": 83.5,
+      "confidence": 95
+    },
+    {
+      "rank": 196,
       "package": "gauge",
       "version": "5.0.2",
       "trustScore": 83.5,
       "confidence": 95
     },
     {
-      "rank": 196,
+      "rank": 197,
       "package": "postcss-modules-extract-imports",
       "version": "3.1.0",
       "trustScore": 83.5,
       "confidence": 95
     },
     {
-      "rank": 197,
+      "rank": 198,
       "package": "gtoken",
       "version": "8.0.0",
       "trustScore": 83.5,
       "confidence": 95
     },
     {
-      "rank": 198,
-      "package": "protobufjs",
-      "version": "8.8.0",
+      "rank": 199,
+      "package": "webpack-cli",
+      "version": "7.2.3",
       "trustScore": 83.48,
       "confidence": 95
     },
     {
-      "rank": 199,
+      "rank": 200,
       "package": "lodash.uniqby",
       "version": "4.7.0",
-      "trustScore": 83.46,
-      "confidence": 95
-    },
-    {
-      "rank": 200,
-      "package": "webpack-cli",
-      "version": "7.2.3",
       "trustScore": 83.46,
       "confidence": 95
     },
@@ -1416,160 +1416,160 @@
       "rank": 202,
       "package": "@babel/types",
       "version": "8.0.6",
-      "trustScore": 83.42,
+      "trustScore": 83.44,
       "confidence": 95
     },
     {
       "rank": 203,
       "package": "@opentelemetry/resources",
       "version": "2.11.0",
-      "trustScore": 83.42,
+      "trustScore": 83.43,
       "confidence": 95
     },
     {
       "rank": 204,
       "package": "@opentelemetry/sdk-trace-base",
       "version": "2.11.0",
-      "trustScore": 83.42,
+      "trustScore": 83.43,
       "confidence": 95
     },
     {
       "rank": 205,
       "package": "react-router-config",
       "version": "5.1.1",
-      "trustScore": 83.4,
+      "trustScore": 83.39,
       "confidence": 95
     },
     {
       "rank": 206,
-      "package": "@azure/core-lro",
-      "version": "3.4.1",
-      "trustScore": 83.38,
+      "package": "monaco-editor-webpack-plugin",
+      "version": "7.1.1",
+      "trustScore": 83.39,
       "confidence": 95
     },
     {
       "rank": 207,
-      "package": "monaco-editor-webpack-plugin",
-      "version": "7.1.1",
-      "trustScore": 83.37,
+      "package": "@azure/core-lro",
+      "version": "3.4.1",
+      "trustScore": 83.39,
       "confidence": 95
     },
     {
       "rank": 208,
       "package": "react-intl",
       "version": "12.1.3",
-      "trustScore": 83.34,
+      "trustScore": 83.35,
       "confidence": 95
     },
     {
       "rank": 209,
       "package": "@wdio/logger",
       "version": "9.29.1",
-      "trustScore": 83.32,
+      "trustScore": 83.33,
       "confidence": 95
     },
     {
       "rank": 210,
       "package": "@fluentui/react-window-provider",
       "version": "2.3.2",
-      "trustScore": 83.29,
+      "trustScore": 83.3,
       "confidence": 95
     },
     {
       "rank": 211,
+      "package": "@graphql-tools/load",
+      "version": "8.1.19",
+      "trustScore": 83.27,
+      "confidence": 95
+    },
+    {
+      "rank": 212,
       "package": "@storybook/manager-webpack4",
       "version": "6.5.16",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
-      "rank": 212,
+      "rank": 213,
       "package": "@aws-sdk/util-utf8-browser",
       "version": "3.259.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
-      "rank": 213,
-      "package": "@graphql-tools/load",
-      "version": "8.1.19",
-      "trustScore": 83.25,
-      "confidence": 95
-    },
-    {
       "rank": 214,
-      "package": "@aws-sdk/signature-v4",
-      "version": "3.374.0",
-      "trustScore": 83.25,
-      "confidence": 95
-    },
-    {
-      "rank": 215,
-      "package": "@aws-sdk/middleware-stack",
-      "version": "3.374.0",
-      "trustScore": 83.25,
-      "confidence": 95
-    },
-    {
-      "rank": 216,
-      "package": "@aws-sdk/hash-node",
-      "version": "3.374.0",
-      "trustScore": 83.25,
-      "confidence": 95
-    },
-    {
-      "rank": 217,
       "package": "@aws-sdk/node-config-provider",
       "version": "3.374.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
-      "rank": 218,
+      "rank": 215,
+      "package": "@aws-sdk/signature-v4",
+      "version": "3.374.0",
+      "trustScore": 83.25,
+      "confidence": 95
+    },
+    {
+      "rank": 216,
       "package": "@aws-sdk/abort-controller",
       "version": "3.374.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
-      "rank": 219,
-      "package": "@aws-sdk/node-http-handler",
+      "rank": 217,
+      "package": "@aws-sdk/middleware-stack",
       "version": "3.374.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
-      "rank": 220,
+      "rank": 218,
       "package": "@aws-sdk/fetch-http-handler",
       "version": "3.374.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
-      "rank": 221,
+      "rank": 219,
+      "package": "@aws-sdk/hash-node",
+      "version": "3.374.0",
+      "trustScore": 83.25,
+      "confidence": 95
+    },
+    {
+      "rank": 220,
       "package": "@aws-sdk/is-array-buffer",
       "version": "3.374.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
-      "rank": 222,
-      "package": "@aws-sdk/util-utf8-node",
-      "version": "3.259.0",
+      "rank": 221,
+      "package": "@aws-sdk/node-http-handler",
+      "version": "3.374.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
-      "rank": 223,
+      "rank": 222,
       "package": "@aws-sdk/util-base64-browser",
       "version": "3.209.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
+      "rank": 223,
+      "package": "@aws-sdk/util-utf8-node",
+      "version": "3.259.0",
+      "trustScore": 83.25,
+      "confidence": 95
+    },
+    {
       "rank": 224,
-      "package": "web3-eth-personal",
-      "version": "4.1.0",
+      "package": "@aws-sdk/util-body-length-browser",
+      "version": "3.374.0",
       "trustScore": 83.25,
       "confidence": 95
     },
@@ -1582,14 +1582,14 @@
     },
     {
       "rank": 226,
-      "package": "@aws-sdk/util-body-length-node",
-      "version": "3.374.0",
+      "package": "web3-eth-personal",
+      "version": "4.1.0",
       "trustScore": 83.25,
       "confidence": 95
     },
     {
       "rank": 227,
-      "package": "@aws-sdk/util-body-length-browser",
+      "package": "@aws-sdk/util-body-length-node",
       "version": "3.374.0",
       "trustScore": 83.25,
       "confidence": 95
@@ -1640,35 +1640,35 @@
       "rank": 234,
       "package": "fastify",
       "version": "5.12.5",
-      "trustScore": 83.2,
+      "trustScore": 83.22,
       "confidence": 95
     },
     {
       "rank": 235,
-      "package": "@octokit/graphql",
-      "version": "9.0.5",
-      "trustScore": 83.18,
+      "package": "@babel/parser",
+      "version": "7.29.9",
+      "trustScore": 83.19,
       "confidence": 95
     },
     {
       "rank": 236,
-      "package": "@babel/parser",
+      "package": "@babel/plugin-transform-typescript",
       "version": "7.29.9",
-      "trustScore": 83.17,
+      "trustScore": 83.19,
       "confidence": 95
     },
     {
       "rank": 237,
-      "package": "@babel/plugin-transform-typescript",
-      "version": "7.29.9",
-      "trustScore": 83.17,
+      "package": "@octokit/graphql",
+      "version": "9.0.5",
+      "trustScore": 83.19,
       "confidence": 95
     },
     {
       "rank": 238,
       "package": "react-native-reanimated",
       "version": "4.7.0",
-      "trustScore": 83.17,
+      "trustScore": 83.19,
       "confidence": 95
     },
     {
@@ -1715,36 +1715,36 @@
     },
     {
       "rank": 245,
-      "package": "@chakra-ui/button",
-      "version": "2.1.0",
-      "trustScore": 83,
-      "confidence": 95
-    },
-    {
-      "rank": 246,
-      "package": "@chakra-ui/editable",
-      "version": "3.1.0",
-      "trustScore": 83,
-      "confidence": 95
-    },
-    {
-      "rank": 247,
       "package": "@chakra-ui/modal",
       "version": "2.3.1",
       "trustScore": 83,
       "confidence": 95
     },
     {
-      "rank": 248,
+      "rank": 246,
+      "package": "@chakra-ui/accordion",
+      "version": "2.3.1",
+      "trustScore": 83,
+      "confidence": 95
+    },
+    {
+      "rank": 247,
       "package": "@chakra-ui/slider",
       "version": "2.1.0",
       "trustScore": 83,
       "confidence": 95
     },
     {
+      "rank": 248,
+      "package": "@chakra-ui/button",
+      "version": "2.1.0",
+      "trustScore": 83,
+      "confidence": 95
+    },
+    {
       "rank": 249,
-      "package": "@chakra-ui/accordion",
-      "version": "2.3.1",
+      "package": "@chakra-ui/editable",
+      "version": "3.1.0",
       "trustScore": 83,
       "confidence": 95
     },
@@ -1773,210 +1773,210 @@
       "rank": 253,
       "package": "swr",
       "version": "2.5.1",
-      "trustScore": 82.93,
+      "trustScore": 82.94,
       "confidence": 95
     },
     {
       "rank": 254,
       "package": "@lit/reactive-element",
       "version": "2.1.2",
-      "trustScore": 82.85,
+      "trustScore": 82.87,
       "confidence": 95
     },
     {
       "rank": 255,
+      "package": "nanoid",
+      "version": "6.0.1",
+      "trustScore": 82.82,
+      "confidence": 95
+    },
+    {
+      "rank": 256,
       "package": "q",
       "version": "1.5.1",
       "trustScore": 82.81,
       "confidence": 95
     },
     {
-      "rank": 256,
-      "package": "nanoid",
-      "version": "6.0.1",
-      "trustScore": 82.8,
-      "confidence": 95
-    },
-    {
       "rank": 257,
       "package": "workbox-build",
       "version": "7.4.1",
-      "trustScore": 82.8,
+      "trustScore": 82.81,
       "confidence": 95
     },
     {
       "rank": 258,
       "package": "@babel/plugin-transform-react-jsx-self",
       "version": "7.29.7",
-      "trustScore": 82.76,
+      "trustScore": 82.78,
       "confidence": 95
     },
     {
       "rank": 259,
       "package": "@babel/plugin-transform-react-jsx-source",
       "version": "7.29.7",
-      "trustScore": 82.76,
+      "trustScore": 82.78,
       "confidence": 95
     },
     {
       "rank": 260,
       "package": "body-parser",
       "version": "2.3.0",
-      "trustScore": 82.73,
+      "trustScore": 82.74,
       "confidence": 95
     },
     {
       "rank": 261,
       "package": "react-redux",
       "version": "9.3.0",
-      "trustScore": 82.65,
+      "trustScore": 82.66,
       "confidence": 95
     },
     {
       "rank": 262,
       "package": "@docusaurus/utils",
       "version": "3.10.2",
-      "trustScore": 82.63,
+      "trustScore": 82.64,
       "confidence": 95
     },
     {
       "rank": 263,
       "package": "serialize-javascript",
       "version": "7.1.2",
-      "trustScore": 82.6,
+      "trustScore": 82.62,
       "confidence": 95
     },
     {
       "rank": 264,
       "package": "jasmine-core",
       "version": "7.0.2",
-      "trustScore": 82.58,
+      "trustScore": 82.59,
       "confidence": 95
     },
     {
       "rank": 265,
       "package": "react-devtools-core",
       "version": "8.0.0",
-      "trustScore": 82.54,
+      "trustScore": 82.56,
       "confidence": 95
     },
     {
       "rank": 266,
       "package": "react-devtools",
       "version": "8.0.0",
-      "trustScore": 82.54,
+      "trustScore": 82.56,
       "confidence": 95
     },
     {
       "rank": 267,
+      "package": "minipass-fetch",
+      "version": "6.0.0",
+      "trustScore": 82.51,
+      "confidence": 95
+    },
+    {
+      "rank": 268,
       "package": "debug",
       "version": "4.4.3",
       "trustScore": 82.5,
       "confidence": 95
     },
     {
-      "rank": 268,
+      "rank": 269,
       "package": "@emotion/hash",
       "version": "0.9.2",
       "trustScore": 82.5,
       "confidence": 95
     },
     {
-      "rank": 269,
+      "rank": 270,
       "package": "big.js",
       "version": "7.0.1",
       "trustScore": 82.5,
       "confidence": 95
     },
     {
-      "rank": 270,
+      "rank": 271,
       "package": "@emotion/weak-memoize",
       "version": "0.4.0",
       "trustScore": 82.5,
       "confidence": 95
     },
     {
-      "rank": 271,
+      "rank": 272,
+      "package": "terser-webpack-plugin",
+      "version": "5.6.1",
+      "trustScore": 82.5,
+      "confidence": 95
+    },
+    {
+      "rank": 273,
       "package": "react-dev-utils",
       "version": "12.0.1",
       "trustScore": 82.5,
       "confidence": 95
     },
     {
-      "rank": 272,
+      "rank": 274,
       "package": "is-glob",
       "version": "4.0.3",
       "trustScore": 82.5,
       "confidence": 95
     },
     {
-      "rank": 273,
+      "rank": 275,
       "package": "pg-types",
       "version": "4.1.0",
       "trustScore": 82.5,
       "confidence": 95
     },
     {
-      "rank": 274,
-      "package": "minipass-fetch",
-      "version": "6.0.0",
+      "rank": 276,
+      "package": "react-tooltip",
+      "version": "6.0.8",
       "trustScore": 82.49,
       "confidence": 95
     },
     {
-      "rank": 275,
-      "package": "terser-webpack-plugin",
-      "version": "5.6.1",
-      "trustScore": 82.48,
-      "confidence": 95
-    },
-    {
-      "rank": 276,
+      "rank": 277,
       "package": "@vitejs/plugin-react",
       "version": "6.1.1",
-      "trustScore": 82.47,
-      "confidence": 95
-    },
-    {
-      "rank": 277,
-      "package": "react-tooltip",
-      "version": "6.0.8",
-      "trustScore": 82.47,
+      "trustScore": 82.48,
       "confidence": 95
     },
     {
       "rank": 278,
       "package": "@babel/traverse",
       "version": "8.0.6",
-      "trustScore": 82.42,
+      "trustScore": 82.44,
       "confidence": 95
     },
     {
       "rank": 279,
       "package": "@jest/core",
       "version": "30.5.2",
-      "trustScore": 82.42,
+      "trustScore": 82.44,
       "confidence": 95
     },
     {
       "rank": 280,
       "package": "@aws-sdk/util-arn-parser",
       "version": "3.972.41",
-      "trustScore": 82.36,
+      "trustScore": 82.38,
       "confidence": 95
     },
     {
       "rank": 281,
-      "package": "acorn-node",
-      "version": "2.0.1",
-      "trustScore": 82.35,
+      "package": "undici",
+      "version": "8.11.2",
+      "trustScore": 82.36,
       "confidence": 95
     },
     {
       "rank": 282,
-      "package": "undici",
-      "version": "8.11.2",
-      "trustScore": 82.34,
+      "package": "acorn-node",
+      "version": "2.0.1",
+      "trustScore": 82.35,
       "confidence": 95
     },
     {
@@ -1990,7 +1990,7 @@
       "rank": 284,
       "package": "mjml-migrate",
       "version": "4.18.0",
-      "trustScore": 82.31,
+      "trustScore": 82.33,
       "confidence": 95
     },
     {
@@ -2016,36 +2016,36 @@
     },
     {
       "rank": 288,
+      "package": "zod",
+      "version": "4.6.5",
+      "trustScore": 82.25,
+      "confidence": 95
+    },
+    {
+      "rank": 289,
       "package": "@aws-sdk/hash-stream-node",
       "version": "3.374.0",
       "trustScore": 82.25,
       "confidence": 95
     },
     {
-      "rank": 289,
-      "package": "zod",
-      "version": "4.6.5",
-      "trustScore": 82.24,
+      "rank": 290,
+      "package": "@rollup/pluginutils",
+      "version": "5.4.0",
+      "trustScore": 82.22,
       "confidence": 95
     },
     {
-      "rank": 290,
+      "rank": 291,
       "package": "lodash.clonedeep",
       "version": "4.5.0",
       "trustScore": 82.21,
       "confidence": 95
     },
     {
-      "rank": 291,
+      "rank": 292,
       "package": "lodash.debounce",
       "version": "4.0.8",
-      "trustScore": 82.21,
-      "confidence": 95
-    },
-    {
-      "rank": 292,
-      "package": "lodash.uniq",
-      "version": "4.5.0",
       "trustScore": 82.21,
       "confidence": 95
     },
@@ -2058,43 +2058,43 @@
     },
     {
       "rank": 294,
+      "package": "lodash.uniq",
+      "version": "4.5.0",
+      "trustScore": 82.21,
+      "confidence": 95
+    },
+    {
+      "rank": 295,
       "package": "lodash.memoize",
       "version": "4.1.2",
       "trustScore": 82.21,
       "confidence": 95
     },
     {
-      "rank": 295,
+      "rank": 296,
       "package": "lodash.difference",
       "version": "4.5.0",
       "trustScore": 82.21,
       "confidence": 95
     },
     {
-      "rank": 296,
+      "rank": 297,
       "package": "lodash.map",
       "version": "4.6.0",
       "trustScore": 82.21,
       "confidence": 95
     },
     {
-      "rank": 297,
+      "rank": 298,
       "package": "lodash.some",
       "version": "4.6.0",
       "trustScore": 82.21,
       "confidence": 95
     },
     {
-      "rank": 298,
+      "rank": 299,
       "package": "lodash.reduce",
       "version": "4.6.0",
-      "trustScore": 82.21,
-      "confidence": 95
-    },
-    {
-      "rank": 299,
-      "package": "lodash.has",
-      "version": "4.5.2",
       "trustScore": 82.21,
       "confidence": 95
     },
@@ -2114,15 +2114,15 @@
     },
     {
       "rank": 302,
-      "package": "lodash.find",
-      "version": "4.6.0",
+      "package": "lodash.has",
+      "version": "4.5.2",
       "trustScore": 82.21,
       "confidence": 95
     },
     {
       "rank": 303,
-      "package": "@rollup/pluginutils",
-      "version": "5.4.0",
+      "package": "lodash.find",
+      "version": "4.6.0",
       "trustScore": 82.21,
       "confidence": 95
     },
@@ -2137,14 +2137,14 @@
       "rank": 305,
       "package": "@wdio/types",
       "version": "9.32.0",
-      "trustScore": 82.14,
+      "trustScore": 82.16,
       "confidence": 95
     },
     {
       "rank": 306,
       "package": "ts-loader",
       "version": "9.6.2",
-      "trustScore": 82.13,
+      "trustScore": 82.15,
       "confidence": 95
     },
     {
@@ -2158,98 +2158,98 @@
       "rank": 308,
       "package": "@babel/helper-simple-access",
       "version": "7.29.7",
-      "trustScore": 82.01,
+      "trustScore": 82.03,
       "confidence": 95
     },
     {
       "rank": 309,
       "package": "caniuse-lite",
       "version": "1.0.30001814",
-      "trustScore": 82.01,
+      "trustScore": 82.02,
       "confidence": 95
     },
     {
       "rank": 310,
+      "package": "eventemitter3",
+      "version": "5.0.4",
+      "trustScore": 82,
+      "confidence": 95
+    },
+    {
+      "rank": 311,
       "package": "@material-ui/utils",
       "version": "4.11.3",
       "trustScore": 82,
       "confidence": 95
     },
     {
-      "rank": 311,
+      "rank": 312,
       "package": "@material-ui/system",
       "version": "4.12.2",
       "trustScore": 82,
       "confidence": 95
     },
     {
-      "rank": 312,
+      "rank": 313,
       "package": "@material-ui/icons",
       "version": "4.11.3",
       "trustScore": 82,
       "confidence": 95
     },
     {
-      "rank": 313,
+      "rank": 314,
       "package": "browserify",
       "version": "17.0.1",
       "trustScore": 82,
       "confidence": 95
     },
     {
-      "rank": 314,
+      "rank": 315,
       "package": "react-virtualized",
       "version": "9.22.6",
       "trustScore": 82,
       "confidence": 95
     },
     {
-      "rank": 315,
+      "rank": 316,
       "package": "ts-invariant",
       "version": "0.10.3",
       "trustScore": 82,
       "confidence": 95
     },
     {
-      "rank": 316,
-      "package": "eventemitter3",
-      "version": "5.0.4",
-      "trustScore": 81.99,
-      "confidence": 95
-    },
-    {
       "rank": 317,
       "package": "cors",
       "version": "2.8.6",
-      "trustScore": 81.95,
+      "trustScore": 81.96,
       "confidence": 95
     },
     {
       "rank": 318,
       "package": "recharts",
       "version": "3.10.1",
-      "trustScore": 81.9,
+      "trustScore": 81.92,
       "confidence": 95
     },
     {
       "rank": 319,
       "package": "@floating-ui/react-dom",
       "version": "2.1.9",
-      "trustScore": 81.87,
+      "trustScore": 81.88,
       "confidence": 95
     },
     {
       "rank": 320,
       "package": "fabric",
       "version": "7.4.0",
-      "trustScore": 81.85,
+      "trustScore": 81.87,
       "confidence": 95
     },
     {
       "rank": 321,
       "package": "mobx-react-lite",
       "version": "5.1.0",
-      "trustScore": 81.84,
+      "trustScore": 81.85,
       "confidence": 95
     },
     {
@@ -2263,7 +2263,7 @@
       "rank": 323,
       "package": "@discordjs/builders",
       "version": "1.14.1",
-      "trustScore": 81.76,
+      "trustScore": 81.78,
       "confidence": 95
     },
     {
@@ -2289,37 +2289,37 @@
     },
     {
       "rank": 327,
-      "package": "@material-ui/styled-engine",
-      "version": "5.0.0-alpha.11",
-      "trustScore": 81.7,
+      "package": "html-webpack-plugin",
+      "version": "5.6.8",
+      "trustScore": 81.69,
       "confidence": 95
     },
     {
       "rank": 328,
-      "package": "html-webpack-plugin",
-      "version": "5.6.8",
-      "trustScore": 81.68,
+      "package": "@material-ui/styled-engine",
+      "version": "5.0.0-alpha.11",
+      "trustScore": 81.69,
       "confidence": 95
     },
     {
       "rank": 329,
       "package": "styled-components",
       "version": "6.5.3",
-      "trustScore": 81.64,
+      "trustScore": 81.65,
       "confidence": 95
     },
     {
       "rank": 330,
       "package": "is-number",
       "version": "7.0.0",
-      "trustScore": 81.53,
+      "trustScore": 81.52,
       "confidence": 95
     },
     {
       "rank": 331,
-      "package": "esbuild-linux-64",
-      "version": "0.15.18",
-      "trustScore": 81.5,
+      "package": "validate-npm-package-name",
+      "version": "8.0.0",
+      "trustScore": 81.51,
       "confidence": 95
     },
     {
@@ -2331,7 +2331,7 @@
     },
     {
       "rank": 333,
-      "package": "esbuild-windows-64",
+      "package": "esbuild-linux-64",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
@@ -2345,21 +2345,21 @@
     },
     {
       "rank": 335,
-      "package": "esbuild-darwin-64",
+      "package": "esbuild-windows-64",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
       "rank": 336,
-      "package": "esbuild-sunos-64",
+      "package": "esbuild-darwin-64",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
       "rank": 337,
-      "package": "esbuild-netbsd-64",
+      "package": "esbuild-openbsd-64",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
@@ -2373,63 +2373,63 @@
     },
     {
       "rank": 339,
-      "package": "esbuild-windows-32",
-      "version": "0.15.18",
-      "trustScore": 81.5,
-      "confidence": 95
-    },
-    {
-      "rank": 340,
-      "package": "esbuild-openbsd-64",
-      "version": "0.15.18",
-      "trustScore": 81.5,
-      "confidence": 95
-    },
-    {
-      "rank": 341,
-      "package": "esbuild-android-arm64",
-      "version": "0.15.18",
-      "trustScore": 81.5,
-      "confidence": 95
-    },
-    {
-      "rank": 342,
       "package": "esbuild-linux-arm",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
+      "rank": 340,
+      "package": "esbuild-windows-32",
+      "version": "0.15.18",
+      "trustScore": 81.5,
+      "confidence": 95
+    },
+    {
+      "rank": 341,
+      "package": "esbuild-sunos-64",
+      "version": "0.15.18",
+      "trustScore": 81.5,
+      "confidence": 95
+    },
+    {
+      "rank": 342,
+      "package": "esbuild-netbsd-64",
+      "version": "0.15.18",
+      "trustScore": 81.5,
+      "confidence": 95
+    },
+    {
       "rank": 343,
-      "package": "esbuild-linux-mips64le",
-      "version": "0.15.18",
-      "trustScore": 81.5,
-      "confidence": 95
-    },
-    {
-      "rank": 344,
-      "package": "esbuild-linux-32",
-      "version": "0.15.18",
-      "trustScore": 81.5,
-      "confidence": 95
-    },
-    {
-      "rank": 345,
-      "package": "esbuild-freebsd-64",
-      "version": "0.15.18",
-      "trustScore": 81.5,
-      "confidence": 95
-    },
-    {
-      "rank": 346,
       "package": "esbuild-linux-ppc64le",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
+      "rank": 344,
+      "package": "esbuild-android-arm64",
+      "version": "0.15.18",
+      "trustScore": 81.5,
+      "confidence": 95
+    },
+    {
+      "rank": 345,
+      "package": "esbuild-linux-mips64le",
+      "version": "0.15.18",
+      "trustScore": 81.5,
+      "confidence": 95
+    },
+    {
+      "rank": 346,
+      "package": "esbuild-linux-32",
+      "version": "0.15.18",
+      "trustScore": 81.5,
+      "confidence": 95
+    },
+    {
       "rank": 347,
-      "package": "esbuild-linux-arm64",
+      "package": "esbuild-freebsd-64",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
@@ -2443,8 +2443,8 @@
     },
     {
       "rank": 349,
-      "package": "get-stream",
-      "version": "9.0.1",
+      "package": "esbuild-linux-arm64",
+      "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
     },
@@ -2457,93 +2457,93 @@
     },
     {
       "rank": 351,
+      "package": "get-stream",
+      "version": "9.0.1",
+      "trustScore": 81.5,
+      "confidence": 95
+    },
+    {
+      "rank": 352,
       "package": "esbuild-linux-riscv64",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 352,
+      "rank": 353,
       "package": "glob-parent",
       "version": "6.0.2",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 353,
+      "rank": 354,
       "package": "esbuild-android-64",
       "version": "0.15.18",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 354,
+      "rank": 355,
       "package": "interpret",
       "version": "3.1.1",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 355,
+      "rank": 356,
       "package": "fraction.js",
       "version": "5.3.4",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 356,
+      "rank": 357,
       "package": "css-to-react-native",
       "version": "3.2.0",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 357,
+      "rank": 358,
       "package": "minizlib",
       "version": "3.1.0",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 358,
+      "rank": 359,
       "package": "@nuxt/webpack",
       "version": "2.18.1",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 359,
+      "rank": 360,
       "package": "react-base16-styling",
       "version": "0.10.0",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 360,
+      "rank": 361,
       "package": "source-map-loader",
       "version": "5.0.0",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 361,
+      "rank": 362,
       "package": "thread-loader",
       "version": "4.0.4",
       "trustScore": 81.5,
       "confidence": 95
     },
     {
-      "rank": 362,
-      "package": "validate-npm-package-name",
-      "version": "8.0.0",
-      "trustScore": 81.49,
-      "confidence": 95
-    },
-    {
       "rank": 363,
       "package": "react-router",
       "version": "8.4.0",
-      "trustScore": 81.46,
+      "trustScore": 81.48,
       "confidence": 95
     },
     {
@@ -2557,14 +2557,14 @@
       "rank": 365,
       "package": "node-addon-api",
       "version": "8.9.2",
-      "trustScore": 81.43,
+      "trustScore": 81.44,
       "confidence": 95
     },
     {
       "rank": 366,
       "package": "@docusaurus/core",
       "version": "3.10.2",
-      "trustScore": 81.38,
+      "trustScore": 81.39,
       "confidence": 95
     },
     {
@@ -2576,106 +2576,106 @@
     },
     {
       "rank": 368,
+      "package": "@graphql-codegen/cli",
+      "version": "7.4.3",
+      "trustScore": 81.35,
+      "confidence": 95
+    },
+    {
+      "rank": 369,
       "package": "immutability-helper",
       "version": "3.1.1",
       "trustScore": 81.35,
       "confidence": 95
     },
     {
-      "rank": 369,
-      "package": "@graphql-codegen/cli",
-      "version": "7.4.3",
-      "trustScore": 81.34,
-      "confidence": 95
-    },
-    {
       "rank": 370,
       "package": "inquirer",
       "version": "14.2.2",
-      "trustScore": 81.32,
+      "trustScore": 81.33,
       "confidence": 95
     },
     {
       "rank": 371,
-      "package": "svgo",
-      "version": "4.1.0",
-      "trustScore": 81.27,
+      "package": "downshift",
+      "version": "9.4.0",
+      "trustScore": 81.29,
       "confidence": 95
     },
     {
       "rank": 372,
-      "package": "downshift",
-      "version": "9.4.0",
-      "trustScore": 81.27,
+      "package": "svgo",
+      "version": "4.1.0",
+      "trustScore": 81.28,
       "confidence": 95
     },
     {
       "rank": 373,
       "package": "@react-navigation/native",
       "version": "7.5.0",
-      "trustScore": 81.27,
+      "trustScore": 81.28,
       "confidence": 95
     },
     {
       "rank": 374,
       "package": "@react-navigation/stack",
       "version": "7.12.0",
-      "trustScore": 81.27,
+      "trustScore": 81.28,
       "confidence": 95
     },
     {
       "rank": 375,
       "package": "@react-navigation/native-stack",
       "version": "7.20.0",
-      "trustScore": 81.27,
+      "trustScore": 81.28,
       "confidence": 95
     },
     {
       "rank": 376,
       "package": "@tiptap/react",
       "version": "3.31.4",
-      "trustScore": 81.26,
+      "trustScore": 81.27,
       "confidence": 95
     },
     {
       "rank": 377,
+      "package": "css-loader",
+      "version": "7.1.5",
+      "trustScore": 81.22,
+      "confidence": 95
+    },
+    {
+      "rank": 378,
       "package": "lodash.get",
       "version": "4.4.2",
       "trustScore": 81.21,
       "confidence": 95
     },
     {
-      "rank": 378,
+      "rank": 379,
       "package": "lodash.includes",
       "version": "4.3.0",
       "trustScore": 81.21,
       "confidence": 95
     },
     {
-      "rank": 379,
+      "rank": 380,
       "package": "lodash.isplainobject",
       "version": "4.0.6",
       "trustScore": 81.21,
       "confidence": 95
     },
     {
-      "rank": 380,
+      "rank": 381,
       "package": "lodash.truncate",
       "version": "4.4.2",
       "trustScore": 81.21,
       "confidence": 95
     },
     {
-      "rank": 381,
+      "rank": 382,
       "package": "lodash.union",
       "version": "4.6.0",
-      "trustScore": 81.21,
-      "confidence": 95
-    },
-    {
-      "rank": 382,
-      "package": "css-loader",
-      "version": "7.1.5",
       "trustScore": 81.21,
       "confidence": 95
     },
@@ -2711,42 +2711,42 @@
       "rank": 387,
       "package": "@vue/reactivity",
       "version": "3.5.43",
-      "trustScore": 81.19,
+      "trustScore": 81.2,
       "confidence": 95
     },
     {
       "rank": 388,
       "package": "@wdio/config",
       "version": "9.32.0",
-      "trustScore": 81.14,
+      "trustScore": 81.16,
       "confidence": 95
     },
     {
       "rank": 389,
       "package": "webpack-dev-middleware",
       "version": "8.3.0",
-      "trustScore": 81.13,
+      "trustScore": 81.15,
       "confidence": 95
     },
     {
       "rank": 390,
+      "package": "config",
+      "version": "5.0.1",
+      "trustScore": 81.11,
+      "confidence": 95
+    },
+    {
+      "rank": 391,
       "package": "proxyquire",
       "version": "2.1.3",
       "trustScore": 81.11,
       "confidence": 95
     },
     {
-      "rank": 391,
+      "rank": 392,
       "package": "string_decoder",
       "version": "1.3.0",
       "trustScore": 81.1,
-      "confidence": 95
-    },
-    {
-      "rank": 392,
-      "package": "config",
-      "version": "5.0.1",
-      "trustScore": 81.09,
       "confidence": 95
     },
     {
@@ -2758,16 +2758,16 @@
     },
     {
       "rank": 394,
-      "package": "combined-stream",
-      "version": "1.0.8",
+      "package": "sass",
+      "version": "1.105.1",
       "trustScore": 81.03,
       "confidence": 95
     },
     {
       "rank": 395,
-      "package": "sass",
-      "version": "1.105.1",
-      "trustScore": 81.02,
+      "package": "combined-stream",
+      "version": "1.0.8",
+      "trustScore": 81.03,
       "confidence": 95
     },
     {
@@ -2816,125 +2816,125 @@
       "rank": 402,
       "package": "gcp-metadata",
       "version": "9.0.4",
-      "trustScore": 80.95,
+      "trustScore": 80.96,
       "confidence": 95
     },
     {
       "rank": 403,
       "package": "finalhandler",
       "version": "2.1.1",
-      "trustScore": 80.91,
+      "trustScore": 80.92,
       "confidence": 95
     },
     {
       "rank": 404,
       "package": "type-is",
       "version": "3.0.0",
-      "trustScore": 80.88,
+      "trustScore": 80.89,
       "confidence": 95
     },
     {
       "rank": 405,
       "package": "raw-body",
       "version": "4.0.0",
-      "trustScore": 80.86,
+      "trustScore": 80.87,
       "confidence": 95
     },
     {
       "rank": 406,
       "package": "@rollup/plugin-node-resolve",
       "version": "16.0.3",
-      "trustScore": 80.84,
+      "trustScore": 80.85,
       "confidence": 95
     },
     {
       "rank": 407,
+      "package": "ini",
+      "version": "7.0.0",
+      "trustScore": 80.76,
+      "confidence": 95
+    },
+    {
+      "rank": 408,
+      "package": "@prisma/client",
+      "version": "7.10.0",
+      "trustScore": 80.76,
+      "confidence": 95
+    },
+    {
+      "rank": 409,
       "package": "prop-types",
       "version": "15.8.1",
       "trustScore": 80.75,
       "confidence": 95
     },
     {
-      "rank": 408,
+      "rank": 410,
       "package": "stackframe",
       "version": "1.3.4",
       "trustScore": 80.75,
       "confidence": 95
     },
     {
-      "rank": 409,
+      "rank": 411,
       "package": "node-sass",
       "version": "9.0.0",
       "trustScore": 80.75,
       "confidence": 95
     },
     {
-      "rank": 410,
-      "package": "@prisma/client",
-      "version": "7.10.0",
-      "trustScore": 80.75,
-      "confidence": 95
-    },
-    {
-      "rank": 411,
+      "rank": 412,
       "package": "@npmcli/move-file",
       "version": "3.0.0",
       "trustScore": 80.75,
       "confidence": 95
     },
     {
-      "rank": 412,
+      "rank": 413,
       "package": "react-dates",
       "version": "21.8.0",
       "trustScore": 80.75,
       "confidence": 95
     },
     {
-      "rank": 413,
-      "package": "ini",
-      "version": "7.0.0",
-      "trustScore": 80.74,
-      "confidence": 95
-    },
-    {
       "rank": 414,
       "package": "css-minimizer-webpack-plugin",
       "version": "8.0.0",
-      "trustScore": 80.66,
+      "trustScore": 80.67,
       "confidence": 95
     },
     {
       "rank": 415,
-      "package": "xmlbuilder",
-      "version": "15.1.1",
-      "trustScore": 80.56,
+      "package": "webpack-sources",
+      "version": "3.6.0",
+      "trustScore": 80.57,
       "confidence": 95
     },
     {
       "rank": 416,
-      "package": "webpack-sources",
-      "version": "3.6.0",
-      "trustScore": 80.56,
+      "package": "xmlbuilder",
+      "version": "15.1.1",
+      "trustScore": 80.55,
       "confidence": 95
     },
     {
       "rank": 417,
+      "package": "@vercel/node",
+      "version": "17.0.0",
+      "trustScore": 80.52,
+      "confidence": 95
+    },
+    {
+      "rank": 418,
       "package": "human-signals",
       "version": "8.0.1",
       "trustScore": 80.5,
       "confidence": 95
     },
     {
-      "rank": 418,
+      "rank": 419,
       "package": "ansi-colors",
       "version": "4.1.3",
-      "trustScore": 80.5,
-      "confidence": 95
-    },
-    {
-      "rank": 419,
-      "package": "@vercel/node",
-      "version": "17.0.0",
       "trustScore": 80.5,
       "confidence": 95
     },
@@ -2991,28 +2991,28 @@
       "rank": 427,
       "package": "color-name",
       "version": "2.1.1",
-      "trustScore": 80.47,
+      "trustScore": 80.48,
       "confidence": 95
     },
     {
       "rank": 428,
       "package": "cosmiconfig",
       "version": "10.0.1",
-      "trustScore": 80.43,
+      "trustScore": 80.45,
       "confidence": 95
     },
     {
       "rank": 429,
       "package": "@octokit/request",
       "version": "10.0.16",
-      "trustScore": 80.43,
+      "trustScore": 80.45,
       "confidence": 95
     },
     {
       "rank": 430,
       "package": "@opentelemetry/api",
       "version": "1.9.1",
-      "trustScore": 80.35,
+      "trustScore": 80.36,
       "confidence": 95
     },
     {
@@ -3026,7 +3026,7 @@
       "rank": 432,
       "package": "stylus-loader",
       "version": "9.0.0",
-      "trustScore": 80.26,
+      "trustScore": 80.27,
       "confidence": 95
     },
     {
@@ -3061,14 +3061,14 @@
       "rank": 437,
       "package": "react-router-dom",
       "version": "7.18.4",
-      "trustScore": 80.21,
+      "trustScore": 80.23,
       "confidence": 95
     },
     {
       "rank": 438,
       "package": "bson",
       "version": "7.3.3",
-      "trustScore": 80.21,
+      "trustScore": 80.22,
       "confidence": 95
     },
     {
@@ -3082,35 +3082,35 @@
       "rank": 440,
       "package": "@wdio/utils",
       "version": "9.32.0",
-      "trustScore": 80.14,
+      "trustScore": 80.16,
       "confidence": 95
     },
     {
       "rank": 441,
       "package": "webdriver",
       "version": "9.32.0",
-      "trustScore": 80.14,
+      "trustScore": 80.16,
       "confidence": 95
     },
     {
       "rank": 442,
       "package": "socket.io",
       "version": "4.8.4",
-      "trustScore": 80.08,
+      "trustScore": 80.09,
       "confidence": 95
     },
     {
       "rank": 443,
       "package": "@reduxjs/toolkit",
       "version": "2.13.0",
-      "trustScore": 80.03,
+      "trustScore": 80.04,
       "confidence": 95
     },
     {
       "rank": 444,
-      "package": "@material-ui/core",
-      "version": "4.12.4",
-      "trustScore": 80,
+      "package": "stylis",
+      "version": "4.4.0",
+      "trustScore": 80.02,
       "confidence": 95
     },
     {
@@ -3122,15 +3122,15 @@
     },
     {
       "rank": 446,
-      "package": "fork-ts-checker-webpack-plugin",
-      "version": "9.1.0",
+      "package": "@material-ui/core",
+      "version": "4.12.4",
       "trustScore": 80,
       "confidence": 95
     },
     {
       "rank": 447,
-      "package": "stylis",
-      "version": "4.4.0",
+      "package": "fork-ts-checker-webpack-plugin",
+      "version": "9.1.0",
       "trustScore": 80,
       "confidence": 95
     },
@@ -3152,21 +3152,21 @@
       "rank": 450,
       "package": "jwks-rsa",
       "version": "4.1.0",
-      "trustScore": 79.92,
+      "trustScore": 79.94,
       "confidence": 95
     },
     {
       "rank": 451,
       "package": "bl",
       "version": "7.0.12",
-      "trustScore": 79.86,
+      "trustScore": 79.88,
       "confidence": 95
     },
     {
       "rank": 452,
       "package": "@typescript/vfs",
       "version": "1.6.5",
-      "trustScore": 79.86,
+      "trustScore": 79.88,
       "confidence": 95
     },
     {
@@ -3199,289 +3199,289 @@
     },
     {
       "rank": 457,
+      "package": "antd",
+      "version": "6.6.5",
+      "trustScore": 79.83,
+      "confidence": 95
+    },
+    {
+      "rank": 458,
       "package": "ts-toolbelt",
       "version": "9.6.0",
       "trustScore": 79.83,
       "confidence": 95
     },
     {
-      "rank": 458,
-      "package": "antd",
-      "version": "6.6.5",
-      "trustScore": 79.81,
-      "confidence": 95
-    },
-    {
       "rank": 459,
       "package": "react-spring",
       "version": "10.0.4",
-      "trustScore": 79.8,
+      "trustScore": 79.82,
       "confidence": 95
     },
     {
       "rank": 460,
-      "package": "@expo/config-plugins",
-      "version": "57.0.9",
-      "trustScore": 79.77,
+      "package": "wait-on",
+      "version": "9.5.1",
+      "trustScore": 79.78,
       "confidence": 95
     },
     {
       "rank": 461,
+      "package": "@expo/config-plugins",
+      "version": "57.0.9",
+      "trustScore": 79.78,
+      "confidence": 95
+    },
+    {
+      "rank": 462,
       "package": "webpack-merge",
       "version": "6.0.1",
       "trustScore": 79.75,
       "confidence": 95
     },
     {
-      "rank": 462,
+      "rank": 463,
       "package": "cross-fetch",
       "version": "4.1.0",
       "trustScore": 79.75,
       "confidence": 95
     },
     {
-      "rank": 463,
+      "rank": 464,
       "package": "framesync",
       "version": "6.1.2",
       "trustScore": 79.75,
       "confidence": 95
     },
     {
-      "rank": 464,
+      "rank": 465,
       "package": "resolve-url-loader",
       "version": "5.0.0",
       "trustScore": 79.75,
       "confidence": 95
     },
     {
-      "rank": 465,
+      "rank": 466,
       "package": "lowdb",
       "version": "7.0.1",
       "trustScore": 79.75,
       "confidence": 95
     },
     {
-      "rank": 466,
+      "rank": 467,
       "package": "create-hmac",
       "version": "1.1.7",
       "trustScore": 79.71,
       "confidence": 95
     },
     {
-      "rank": 467,
+      "rank": 468,
       "package": "raf",
       "version": "3.4.1",
       "trustScore": 79.62,
       "confidence": 95
     },
     {
-      "rank": 468,
-      "package": "eslint-plugin-node",
-      "version": "11.1.0",
-      "trustScore": 79.55,
-      "confidence": 95
-    },
-    {
       "rank": 469,
       "package": "react-devtools-inline",
       "version": "8.0.0",
-      "trustScore": 79.54,
+      "trustScore": 79.56,
       "confidence": 95
     },
     {
       "rank": 470,
+      "package": "eslint-plugin-node",
+      "version": "11.1.0",
+      "trustScore": 79.54,
+      "confidence": 95
+    },
+    {
+      "rank": 471,
       "package": "mime",
       "version": "4.1.0",
       "trustScore": 79.5,
       "confidence": 95
     },
     {
-      "rank": 471,
+      "rank": 472,
       "package": "enquirer",
       "version": "2.4.1",
       "trustScore": 79.5,
       "confidence": 95
     },
     {
-      "rank": 472,
+      "rank": 473,
       "package": "signal-exit",
       "version": "4.1.0",
       "trustScore": 79.5,
       "confidence": 95
     },
     {
-      "rank": 473,
+      "rank": 474,
       "package": "lilconfig",
       "version": "3.1.3",
       "trustScore": 79.5,
       "confidence": 95
     },
     {
-      "rank": 474,
+      "rank": 475,
       "package": "compute-scroll-into-view",
       "version": "3.1.1",
       "trustScore": 79.5,
       "confidence": 95
     },
     {
-      "rank": 475,
+      "rank": 476,
       "package": "redis-parser",
       "version": "3.0.0",
       "trustScore": 79.44,
       "confidence": 95
     },
     {
-      "rank": 476,
+      "rank": 477,
+      "package": "eslint-import-resolver-node",
+      "version": "0.4.0",
+      "trustScore": 79.41,
+      "confidence": 95
+    },
+    {
+      "rank": 478,
       "package": "lodash.isfunction",
       "version": "3.0.9",
       "trustScore": 79.4,
       "confidence": 95
     },
     {
-      "rank": 477,
-      "package": "eslint-import-resolver-node",
-      "version": "0.4.0",
-      "trustScore": 79.39,
-      "confidence": 95
-    },
-    {
-      "rank": 478,
+      "rank": 479,
       "package": "@aws-sdk/util-user-agent-node",
       "version": "3.973.62",
-      "trustScore": 79.36,
-      "confidence": 95
-    },
-    {
-      "rank": 479,
-      "package": "vscode-languageserver",
-      "version": "10.1.2",
-      "trustScore": 79.33,
+      "trustScore": 79.38,
       "confidence": 95
     },
     {
       "rank": 480,
-      "package": "unist-util-visit-parents",
-      "version": "6.0.2",
-      "trustScore": 79.29,
+      "package": "vscode-languageserver",
+      "version": "10.1.2",
+      "trustScore": 79.34,
       "confidence": 95
     },
     {
       "rank": 481,
-      "package": "@react-navigation/drawer",
-      "version": "7.14.3",
-      "trustScore": 79.27,
+      "package": "unist-util-visit-parents",
+      "version": "6.0.2",
+      "trustScore": 79.3,
       "confidence": 95
     },
     {
       "rank": 482,
+      "package": "@react-navigation/drawer",
+      "version": "7.14.3",
+      "trustScore": 79.28,
+      "confidence": 95
+    },
+    {
+      "rank": 483,
+      "package": "webpack-dev-server",
+      "version": "6.0.0",
+      "trustScore": 79.25,
+      "confidence": 95
+    },
+    {
+      "rank": 484,
       "package": "@webpack-cli/serve",
       "version": "3.0.1",
       "trustScore": 79.25,
       "confidence": 95
     },
     {
-      "rank": 483,
+      "rank": 485,
       "package": "@webpack-cli/configtest",
       "version": "3.0.1",
       "trustScore": 79.25,
       "confidence": 95
     },
     {
-      "rank": 484,
-      "package": "webpack-dev-server",
-      "version": "6.0.0",
+      "rank": 486,
+      "package": "@react-aria/ssr",
+      "version": "3.10.1",
       "trustScore": 79.23,
       "confidence": 95
     },
     {
-      "rank": 485,
+      "rank": 487,
       "package": "file-loader",
       "version": "6.2.0",
       "trustScore": 79.22,
       "confidence": 95
     },
     {
-      "rank": 486,
-      "package": "@react-aria/ssr",
-      "version": "3.10.1",
-      "trustScore": 79.22,
-      "confidence": 95
-    },
-    {
-      "rank": 487,
+      "rank": 488,
       "package": "url-loader",
       "version": "4.1.1",
       "trustScore": 79.21,
       "confidence": 95
     },
     {
-      "rank": 488,
+      "rank": 489,
       "package": "type-fest",
       "version": "5.10.0",
-      "trustScore": 79.19,
-      "confidence": 95
-    },
-    {
-      "rank": 489,
-      "package": "expo-asset",
-      "version": "57.0.18",
-      "trustScore": 79.18,
+      "trustScore": 79.2,
       "confidence": 95
     },
     {
       "rank": 490,
-      "package": "csstype",
-      "version": "3.2.3",
-      "trustScore": 79.1,
+      "package": "expo-asset",
+      "version": "57.0.18",
+      "trustScore": 79.19,
       "confidence": 95
     },
     {
       "rank": 491,
+      "package": "csstype",
+      "version": "3.2.3",
+      "trustScore": 79.12,
+      "confidence": 95
+    },
+    {
+      "rank": 492,
       "package": "safe-buffer",
       "version": "5.2.1",
       "trustScore": 79.08,
       "confidence": 95
     },
     {
-      "rank": 492,
+      "rank": 493,
       "package": "@graphql-tools/batch-execute",
       "version": "10.2.0",
-      "trustScore": 79.06,
-      "confidence": 95
-    },
-    {
-      "rank": 493,
-      "package": "assert-plus",
-      "version": "1.0.0",
-      "trustScore": 79.05,
+      "trustScore": 79.07,
       "confidence": 95
     },
     {
       "rank": 494,
-      "package": "nodemailer",
-      "version": "10.0.13",
-      "trustScore": 79.01,
+      "package": "assert-plus",
+      "version": "1.0.0",
+      "trustScore": 79.04,
       "confidence": 95
     },
     {
       "rank": 495,
+      "package": "nodemailer",
+      "version": "10.0.13",
+      "trustScore": 79.03,
+      "confidence": 95
+    },
+    {
+      "rank": 496,
       "package": "react-beautiful-dnd",
       "version": "13.1.1",
       "trustScore": 79,
       "confidence": 95
     },
     {
-      "rank": 496,
+      "rank": 497,
       "package": "@react-native-community/eslint-config",
       "version": "3.2.0",
       "trustScore": 79,
-      "confidence": 95
-    },
-    {
-      "rank": 497,
-      "package": "lodash.flatten",
-      "version": "4.4.0",
-      "trustScore": 78.96,
       "confidence": 95
     },
     {
@@ -3493,163 +3493,163 @@
     },
     {
       "rank": 499,
+      "package": "lodash.flatten",
+      "version": "4.4.0",
+      "trustScore": 78.96,
+      "confidence": 95
+    },
+    {
+      "rank": 500,
       "package": "lodash.defaults",
       "version": "4.2.0",
       "trustScore": 78.96,
       "confidence": 95
     },
     {
-      "rank": 500,
+      "rank": 501,
       "package": "lodash.throttle",
       "version": "4.1.1",
       "trustScore": 78.96,
       "confidence": 95
     },
     {
-      "rank": 501,
+      "rank": 502,
+      "package": "@protobufjs/utf8",
+      "version": "1.1.2",
+      "trustScore": 78.96,
+      "confidence": 95
+    },
+    {
+      "rank": 503,
       "package": "lodash.mapvalues",
       "version": "4.6.0",
       "trustScore": 78.96,
       "confidence": 95
     },
     {
-      "rank": 502,
+      "rank": 504,
       "package": "lodash.pick",
       "version": "4.4.0",
       "trustScore": 78.96,
       "confidence": 95
     },
     {
-      "rank": 503,
-      "package": "@protobufjs/utf8",
-      "version": "1.1.2",
-      "trustScore": 78.94,
-      "confidence": 95
-    },
-    {
-      "rank": 504,
+      "rank": 505,
       "package": "lodash.escape",
       "version": "4.0.1",
       "trustScore": 78.94,
       "confidence": 95
     },
     {
-      "rank": 505,
+      "rank": 506,
       "package": "react-datepicker",
       "version": "9.1.0",
-      "trustScore": 78.91,
-      "confidence": 95
-    },
-    {
-      "rank": 506,
-      "package": "ramda",
-      "version": "0.32.0",
-      "trustScore": 78.87,
+      "trustScore": 78.93,
       "confidence": 95
     },
     {
       "rank": 507,
+      "package": "ramda",
+      "version": "0.32.0",
+      "trustScore": 78.88,
+      "confidence": 95
+    },
+    {
+      "rank": 508,
       "package": "lodash.templatesettings",
       "version": "4.2.0",
       "trustScore": 78.83,
       "confidence": 95
     },
     {
-      "rank": 508,
+      "rank": 509,
       "package": "lodash.isstring",
       "version": "4.0.1",
       "trustScore": 78.8,
       "confidence": 95
     },
     {
-      "rank": 509,
+      "rank": 510,
       "package": "lodash.isboolean",
       "version": "3.0.3",
       "trustScore": 78.8,
       "confidence": 95
     },
     {
-      "rank": 510,
+      "rank": 511,
       "package": "lodash.isnumber",
       "version": "3.0.3",
       "trustScore": 78.8,
       "confidence": 95
     },
     {
-      "rank": 511,
+      "rank": 512,
       "package": "js-beautify",
       "version": "2.0.3",
-      "trustScore": 78.77,
-      "confidence": 95
-    },
-    {
-      "rank": 512,
-      "package": "@fluentui/react-focus",
-      "version": "8.10.7",
-      "trustScore": 78.77,
+      "trustScore": 78.78,
       "confidence": 95
     },
     {
       "rank": 513,
+      "package": "schema-utils",
+      "version": "4.5.0",
+      "trustScore": 78.76,
+      "confidence": 95
+    },
+    {
+      "rank": 514,
       "package": "@svgr/core",
       "version": "8.1.0",
       "trustScore": 78.75,
       "confidence": 95
     },
     {
-      "rank": 514,
+      "rank": 515,
       "package": "common-tags",
       "version": "1.8.2",
       "trustScore": 78.75,
       "confidence": 95
     },
     {
-      "rank": 515,
+      "rank": 516,
+      "package": "@cypress/webpack-preprocessor",
+      "version": "8.0.0",
+      "trustScore": 78.75,
+      "confidence": 95
+    },
+    {
+      "rank": 517,
       "package": "react-popper",
       "version": "2.3.0",
       "trustScore": 78.75,
       "confidence": 95
     },
     {
-      "rank": 516,
+      "rank": 518,
       "package": "levelup",
       "version": "5.1.1",
       "trustScore": 78.75,
       "confidence": 95
     },
     {
-      "rank": 517,
+      "rank": 519,
       "package": "react-responsive",
       "version": "10.0.1",
       "trustScore": 78.75,
       "confidence": 95
     },
     {
-      "rank": 518,
+      "rank": 520,
       "package": "cacheable-lookup",
       "version": "7.0.0",
       "trustScore": 78.75,
       "confidence": 95
     },
     {
-      "rank": 519,
+      "rank": 521,
       "package": "scroll-into-view-if-needed",
       "version": "3.1.0",
       "trustScore": 78.75,
-      "confidence": 95
-    },
-    {
-      "rank": 520,
-      "package": "schema-utils",
-      "version": "4.5.0",
-      "trustScore": 78.74,
-      "confidence": 95
-    },
-    {
-      "rank": 521,
-      "package": "@cypress/webpack-preprocessor",
-      "version": "8.0.0",
-      "trustScore": 78.73,
       "confidence": 95
     },
     {
@@ -3670,27 +3670,27 @@
       "rank": 524,
       "package": "loader-runner",
       "version": "4.3.2",
-      "trustScore": 78.69,
+      "trustScore": 78.7,
       "confidence": 95
     },
     {
       "rank": 525,
       "package": "min-document",
       "version": "2.19.2",
-      "trustScore": 78.68,
+      "trustScore": 78.7,
       "confidence": 95
     },
     {
       "rank": 526,
-      "package": "@protobufjs/aspromise",
-      "version": "1.1.2",
-      "trustScore": 78.67,
+      "package": "tough-cookie",
+      "version": "6.0.2",
+      "trustScore": 78.68,
       "confidence": 95
     },
     {
       "rank": 527,
-      "package": "tough-cookie",
-      "version": "6.0.2",
+      "package": "@protobufjs/aspromise",
+      "version": "1.1.2",
       "trustScore": 78.67,
       "confidence": 95
     },
@@ -3698,34 +3698,34 @@
       "rank": 528,
       "package": "@protobufjs/fetch",
       "version": "1.1.1",
-      "trustScore": 78.62,
+      "trustScore": 78.64,
       "confidence": 95
     },
     {
       "rank": 529,
       "package": "postcss-loader",
       "version": "8.2.1",
-      "trustScore": 78.61,
+      "trustScore": 78.63,
       "confidence": 95
     },
     {
       "rank": 530,
       "package": "playwright-core",
       "version": "1.63.0",
-      "trustScore": 78.61,
+      "trustScore": 78.62,
       "confidence": 95
     },
     {
       "rank": 531,
-      "package": "@protobufjs/pool",
-      "version": "1.1.0",
-      "trustScore": 78.59,
+      "package": "ioredis",
+      "version": "6.0.0",
+      "trustScore": 78.61,
       "confidence": 95
     },
     {
       "rank": 532,
-      "package": "ioredis",
-      "version": "6.0.0",
+      "package": "@protobufjs/pool",
+      "version": "1.1.0",
       "trustScore": 78.59,
       "confidence": 95
     },
@@ -3733,14 +3733,14 @@
       "rank": 533,
       "package": "babel-loader",
       "version": "10.1.1",
-      "trustScore": 78.56,
+      "trustScore": 78.58,
       "confidence": 95
     },
     {
       "rank": 534,
       "package": "@protobufjs/eventemitter",
       "version": "1.1.1",
-      "trustScore": 78.56,
+      "trustScore": 78.57,
       "confidence": 95
     },
     {
@@ -3780,36 +3780,36 @@
     },
     {
       "rank": 540,
+      "package": "eslint-import-resolver-webpack",
+      "version": "0.13.11",
+      "trustScore": 78.5,
+      "confidence": 95
+    },
+    {
+      "rank": 541,
       "package": "mdast-util-to-string",
       "version": "4.0.0",
       "trustScore": 78.5,
       "confidence": 95
     },
     {
-      "rank": 541,
-      "package": "eslint-import-resolver-webpack",
-      "version": "0.13.11",
-      "trustScore": 78.49,
-      "confidence": 95
-    },
-    {
       "rank": 542,
       "package": "@react-native-async-storage/async-storage",
       "version": "3.1.1",
-      "trustScore": 78.46,
+      "trustScore": 78.47,
       "confidence": 95
     },
     {
       "rank": 543,
-      "package": "isomorphic-fetch",
-      "version": "3.0.0",
-      "trustScore": 78.44,
+      "package": "@fullcalendar/interaction",
+      "version": "6.1.21",
+      "trustScore": 78.45,
       "confidence": 95
     },
     {
       "rank": 544,
-      "package": "@fullcalendar/interaction",
-      "version": "6.1.21",
+      "package": "isomorphic-fetch",
+      "version": "3.0.0",
       "trustScore": 78.44,
       "confidence": 95
     },
@@ -3822,65 +3822,65 @@
     },
     {
       "rank": 546,
-      "package": "define-property",
-      "version": "2.0.2",
-      "trustScore": 78.4,
+      "package": "react-player",
+      "version": "3.4.0",
+      "trustScore": 78.42,
       "confidence": 95
     },
     {
       "rank": 547,
-      "package": "react-player",
-      "version": "3.4.0",
-      "trustScore": 78.4,
+      "package": "define-property",
+      "version": "2.0.2",
+      "trustScore": 78.39,
       "confidence": 95
     },
     {
       "rank": 548,
       "package": "through2",
       "version": "5.0.11",
-      "trustScore": 78.36,
+      "trustScore": 78.38,
       "confidence": 95
     },
     {
       "rank": 549,
-      "package": "@react-native-firebase/app",
-      "version": "26.4.0",
-      "trustScore": 78.36,
+      "package": "@react-spring/types",
+      "version": "10.1.2",
+      "trustScore": 78.37,
       "confidence": 95
     },
     {
       "rank": 550,
-      "package": "@react-spring/types",
+      "package": "@react-spring/rafz",
       "version": "10.1.2",
-      "trustScore": 78.35,
+      "trustScore": 78.37,
       "confidence": 95
     },
     {
       "rank": 551,
-      "package": "@react-spring/rafz",
-      "version": "10.1.2",
-      "trustScore": 78.35,
+      "package": "@react-native-firebase/app",
+      "version": "26.4.0",
+      "trustScore": 78.37,
       "confidence": 95
     },
     {
       "rank": 552,
       "package": "mini-css-extract-plugin",
       "version": "2.10.2",
-      "trustScore": 78.33,
+      "trustScore": 78.35,
       "confidence": 95
     },
     {
       "rank": 553,
       "package": "normalize-url",
       "version": "9.0.1",
-      "trustScore": 78.33,
+      "trustScore": 78.35,
       "confidence": 95
     },
     {
       "rank": 554,
       "package": "vscode-languageserver-types",
       "version": "3.18.4",
-      "trustScore": 78.33,
+      "trustScore": 78.34,
       "confidence": 95
     },
     {
@@ -3894,35 +3894,35 @@
       "rank": 556,
       "package": "postcss-place",
       "version": "11.0.0",
-      "trustScore": 78.31,
+      "trustScore": 78.32,
       "confidence": 95
     },
     {
       "rank": 557,
       "package": "reselect",
       "version": "5.3.0",
-      "trustScore": 78.3,
+      "trustScore": 78.31,
       "confidence": 95
     },
     {
       "rank": 558,
       "package": "prisma",
       "version": "8.0.0-rc.19",
-      "trustScore": 78.27,
+      "trustScore": 78.29,
       "confidence": 95
     },
     {
       "rank": 559,
       "package": "expo-file-system",
       "version": "57.0.7",
-      "trustScore": 78.27,
+      "trustScore": 78.28,
       "confidence": 95
     },
     {
       "rank": 560,
       "package": "expo-keep-awake",
       "version": "57.0.2",
-      "trustScore": 78.27,
+      "trustScore": 78.28,
       "confidence": 95
     },
     {
@@ -3942,21 +3942,21 @@
     {
       "rank": 563,
       "package": "@aws-sdk/client-sso",
-      "version": "3.1144.0",
+      "version": "3.1145.0",
       "trustScore": 78.25,
       "confidence": 95
     },
     {
       "rank": 564,
       "package": "@aws-sdk/client-sts",
-      "version": "3.1144.0",
+      "version": "3.1145.0",
       "trustScore": 78.25,
       "confidence": 95
     },
     {
       "rank": 565,
       "package": "@aws-sdk/client-s3",
-      "version": "3.1144.0",
+      "version": "3.1145.0",
       "trustScore": 78.25,
       "confidence": 95
     },
@@ -3978,28 +3978,28 @@
       "rank": 568,
       "package": "webdriverio",
       "version": "9.32.0",
-      "trustScore": 78.14,
+      "trustScore": 78.16,
       "confidence": 95
     },
     {
       "rank": 569,
       "package": "websocket-driver",
       "version": "0.7.5",
-      "trustScore": 78.12,
+      "trustScore": 78.14,
       "confidence": 95
     },
     {
       "rank": 570,
-      "package": "node-cache",
-      "version": "5.1.2",
+      "package": "node-forge",
+      "version": "1.4.0",
       "trustScore": 78.12,
       "confidence": 95
     },
     {
       "rank": 571,
-      "package": "node-forge",
-      "version": "1.4.0",
-      "trustScore": 78.11,
+      "package": "node-cache",
+      "version": "5.1.2",
+      "trustScore": 78.12,
       "confidence": 95
     },
     {
@@ -4011,9 +4011,9 @@
     },
     {
       "rank": 573,
-      "package": "@angular-devkit/build-angular",
-      "version": "22.2.0",
-      "trustScore": 78.1,
+      "package": "ts-jest",
+      "version": "29.4.14",
+      "trustScore": 78.09,
       "confidence": 95
     },
     {
@@ -4025,16 +4025,16 @@
     },
     {
       "rank": 575,
-      "package": "ts-jest",
-      "version": "29.4.14",
-      "trustScore": 78.08,
+      "package": "babel-plugin-dynamic-import-node",
+      "version": "2.3.3",
+      "trustScore": 78.06,
       "confidence": 95
     },
     {
       "rank": 576,
-      "package": "babel-plugin-dynamic-import-node",
-      "version": "2.3.3",
-      "trustScore": 78.07,
+      "package": "mongodb",
+      "version": "7.7.0",
+      "trustScore": 78.05,
       "confidence": 95
     },
     {
@@ -4046,9 +4046,9 @@
     },
     {
       "rank": 578,
-      "package": "mongodb",
-      "version": "7.7.0",
-      "trustScore": 78.03,
+      "package": "@angular-devkit/build-angular",
+      "version": "22.2.1",
+      "trustScore": 78.01,
       "confidence": 95
     },
     {
@@ -4088,23 +4088,23 @@
     },
     {
       "rank": 584,
+      "package": "@cypress/webpack-dev-server",
+      "version": "6.0.0",
+      "trustScore": 78,
+      "confidence": 95
+    },
+    {
+      "rank": 585,
       "package": "react-onclickoutside",
       "version": "6.13.2",
       "trustScore": 78,
       "confidence": 95
     },
     {
-      "rank": 585,
-      "package": "@cypress/webpack-dev-server",
-      "version": "6.0.0",
-      "trustScore": 77.98,
-      "confidence": 95
-    },
-    {
       "rank": 586,
       "package": "eslint-webpack-plugin",
       "version": "6.0.0",
-      "trustScore": 77.97,
+      "trustScore": 77.99,
       "confidence": 95
     },
     {
@@ -4130,58 +4130,58 @@
     },
     {
       "rank": 590,
+      "package": "camelcase",
+      "version": "9.0.0",
+      "trustScore": 77.96,
+      "confidence": 95
+    },
+    {
+      "rank": 591,
       "package": "lodash.snakecase",
       "version": "4.1.1",
       "trustScore": 77.96,
       "confidence": 95
     },
     {
-      "rank": 591,
+      "rank": 592,
       "package": "lodash.flow",
       "version": "3.5.0",
       "trustScore": 77.96,
       "confidence": 95
     },
     {
-      "rank": 592,
-      "package": "camelcase",
-      "version": "9.0.0",
-      "trustScore": 77.94,
+      "rank": 593,
+      "package": "unist-util-visit",
+      "version": "5.1.0",
+      "trustScore": 77.96,
       "confidence": 95
     },
     {
-      "rank": 593,
+      "rank": 594,
       "package": "lodash.escaperegexp",
       "version": "4.1.2",
       "trustScore": 77.94,
       "confidence": 95
     },
     {
-      "rank": 594,
-      "package": "unist-util-visit",
-      "version": "5.1.0",
-      "trustScore": 77.94,
+      "rank": 595,
+      "package": "css-declaration-sorter",
+      "version": "7.4.0",
+      "trustScore": 77.93,
       "confidence": 95
     },
     {
-      "rank": 595,
+      "rank": 596,
       "package": "semantic-ui-react",
       "version": "2.1.5",
       "trustScore": 77.93,
       "confidence": 95
     },
     {
-      "rank": 596,
-      "package": "css-declaration-sorter",
-      "version": "7.4.0",
-      "trustScore": 77.92,
-      "confidence": 95
-    },
-    {
       "rank": 597,
       "package": "minipass",
       "version": "7.1.3",
-      "trustScore": 77.82,
+      "trustScore": 77.83,
       "confidence": 95
     },
     {
@@ -4214,30 +4214,30 @@
     },
     {
       "rank": 602,
-      "package": "html-encoding-sniffer",
-      "version": "7.0.0",
-      "trustScore": 77.64,
+      "package": "postcss-js",
+      "version": "5.1.0",
+      "trustScore": 77.66,
       "confidence": 95
     },
     {
       "rank": 603,
-      "package": "postcss-js",
-      "version": "5.1.0",
-      "trustScore": 77.64,
+      "package": "html-encoding-sniffer",
+      "version": "7.0.0",
+      "trustScore": 77.65,
       "confidence": 95
     },
     {
       "rank": 604,
       "package": "playwright",
       "version": "1.63.0",
-      "trustScore": 77.61,
+      "trustScore": 77.62,
       "confidence": 95
     },
     {
       "rank": 605,
       "package": "react-router-native",
       "version": "6.30.6",
-      "trustScore": 77.6,
+      "trustScore": 77.61,
       "confidence": 95
     },
     {
@@ -4249,268 +4249,268 @@
     },
     {
       "rank": 607,
+      "package": "@fluentui/react-focus",
+      "version": "8.10.8",
+      "trustScore": 77.51,
+      "confidence": 95
+    },
+    {
+      "rank": 608,
       "package": "fast-glob",
       "version": "3.3.3",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 608,
+      "rank": 609,
       "package": "@svgr/babel-plugin-transform-react-native-svg",
       "version": "8.1.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 609,
+      "rank": 610,
       "package": "@svgr/babel-plugin-svg-dynamic-title",
       "version": "8.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 610,
+      "rank": 611,
       "package": "camel-case",
       "version": "5.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 611,
+      "rank": 612,
       "package": "kleur",
       "version": "4.1.5",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 612,
+      "rank": 613,
       "package": "decamelize",
       "version": "6.0.1",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 613,
+      "rank": 614,
       "package": "pkg-dir",
       "version": "9.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 614,
+      "rank": 615,
       "package": "escalade",
       "version": "3.2.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 615,
+      "rank": 616,
       "package": "end-of-stream",
       "version": "1.4.5",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 616,
+      "rank": 617,
       "package": "aproba",
       "version": "2.1.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 617,
+      "rank": 618,
       "package": "map-obj",
       "version": "6.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 618,
+      "rank": 619,
       "package": "is-binary-path",
       "version": "3.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 619,
+      "rank": 620,
       "package": "sentence-case",
       "version": "4.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 620,
+      "rank": 621,
       "package": "tiny-invariant",
       "version": "1.3.3",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 621,
+      "rank": 622,
       "package": "chrome-trace-event",
       "version": "1.0.4",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 622,
+      "rank": 623,
       "package": "untildify",
       "version": "6.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 623,
+      "rank": 624,
       "package": "arch",
       "version": "3.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 624,
+      "rank": 625,
       "package": "github-slugger",
       "version": "2.0.0",
       "trustScore": 77.5,
       "confidence": 95
     },
     {
-      "rank": 625,
+      "rank": 626,
       "package": "buffer",
       "version": "6.0.3",
       "trustScore": 77.49,
       "confidence": 95
     },
     {
-      "rank": 626,
+      "rank": 627,
       "package": "lodash.identity",
       "version": "3.0.0",
       "trustScore": 77.49,
       "confidence": 95
     },
     {
-      "rank": 627,
+      "rank": 628,
       "package": "@octokit/types",
       "version": "18.0.0",
-      "trustScore": 77.45,
-      "confidence": 95
-    },
-    {
-      "rank": 628,
-      "package": "@babel/preset-env",
-      "version": "8.0.6",
-      "trustScore": 77.42,
+      "trustScore": 77.46,
       "confidence": 95
     },
     {
       "rank": 629,
-      "package": "@react-spring/animated",
-      "version": "10.1.2",
-      "trustScore": 77.35,
+      "package": "@babel/preset-env",
+      "version": "8.0.6",
+      "trustScore": 77.44,
       "confidence": 95
     },
     {
       "rank": 630,
-      "package": "@react-spring/shared",
+      "package": "@react-spring/animated",
       "version": "10.1.2",
-      "trustScore": 77.35,
+      "trustScore": 77.37,
       "confidence": 95
     },
     {
       "rank": 631,
-      "package": "@react-spring/core",
+      "package": "@react-spring/shared",
       "version": "10.1.2",
-      "trustScore": 77.35,
+      "trustScore": 77.37,
       "confidence": 95
     },
     {
       "rank": 632,
-      "package": "@react-spring/web",
+      "package": "@react-spring/core",
       "version": "10.1.2",
-      "trustScore": 77.35,
+      "trustScore": 77.37,
       "confidence": 95
     },
     {
       "rank": 633,
-      "package": "@react-spring/three",
+      "package": "@react-spring/web",
       "version": "10.1.2",
-      "trustScore": 77.35,
+      "trustScore": 77.37,
       "confidence": 95
     },
     {
       "rank": 634,
-      "package": "@react-spring/native",
+      "package": "@react-spring/three",
       "version": "10.1.2",
-      "trustScore": 77.35,
+      "trustScore": 77.37,
       "confidence": 95
     },
     {
       "rank": 635,
-      "package": "@react-spring/zdog",
+      "package": "@react-spring/native",
       "version": "10.1.2",
-      "trustScore": 77.35,
+      "trustScore": 77.37,
       "confidence": 95
     },
     {
       "rank": 636,
       "package": "@react-spring/konva",
       "version": "10.1.2",
-      "trustScore": 77.35,
+      "trustScore": 77.37,
       "confidence": 95
     },
     {
       "rank": 637,
-      "package": "@expo/config-types",
-      "version": "57.0.2",
-      "trustScore": 77.31,
+      "package": "@react-spring/zdog",
+      "version": "10.1.2",
+      "trustScore": 77.37,
       "confidence": 95
     },
     {
       "rank": 638,
-      "package": "ipaddr.js",
-      "version": "2.5.0",
-      "trustScore": 77.29,
+      "package": "@expo/config-types",
+      "version": "57.0.2",
+      "trustScore": 77.33,
       "confidence": 95
     },
     {
       "rank": 639,
-      "package": "@typescript-eslint/types",
+      "package": "@typescript-eslint/visitor-keys",
       "version": "8.71.0",
-      "trustScore": 77.28,
+      "trustScore": 77.3,
       "confidence": 95
     },
     {
       "rank": 640,
-      "package": "@typescript-eslint/visitor-keys",
+      "package": "@typescript-eslint/types",
       "version": "8.71.0",
-      "trustScore": 77.28,
+      "trustScore": 77.3,
       "confidence": 95
     },
     {
       "rank": 641,
       "package": "@typescript-eslint/utils",
       "version": "8.71.0",
-      "trustScore": 77.28,
+      "trustScore": 77.3,
       "confidence": 95
     },
     {
       "rank": 642,
-      "package": "@storybook/react",
-      "version": "10.6.1",
-      "trustScore": 77.27,
+      "package": "ipaddr.js",
+      "version": "2.5.0",
+      "trustScore": 77.3,
       "confidence": 95
     },
     {
       "rank": 643,
-      "package": "buffer-xor",
-      "version": "2.0.2",
-      "trustScore": 77.27,
+      "package": "@storybook/react",
+      "version": "10.6.1",
+      "trustScore": 77.28,
       "confidence": 95
     },
     {
       "rank": 644,
       "package": "expo-font",
       "version": "57.0.4",
-      "trustScore": 77.27,
+      "trustScore": 77.28,
       "confidence": 95
     },
     {
@@ -4522,198 +4522,198 @@
     },
     {
       "rank": 646,
+      "package": "buffer-xor",
+      "version": "2.0.2",
+      "trustScore": 77.26,
+      "confidence": 95
+    },
+    {
+      "rank": 647,
       "package": "react-modal",
       "version": "3.16.3",
       "trustScore": 77.25,
       "confidence": 95
     },
     {
-      "rank": 647,
+      "rank": 648,
       "package": "ts-node-dev",
       "version": "2.0.0",
       "trustScore": 77.25,
       "confidence": 95
     },
     {
-      "rank": 648,
+      "rank": 649,
       "package": "@react-stately/utils",
       "version": "3.12.1",
-      "trustScore": 77.22,
-      "confidence": 95
-    },
-    {
-      "rank": 649,
-      "package": "js-cookie",
-      "version": "3.0.8",
-      "trustScore": 77.21,
+      "trustScore": 77.23,
       "confidence": 95
     },
     {
       "rank": 650,
-      "package": "ky",
-      "version": "2.1.0",
-      "trustScore": 77.21,
+      "package": "js-cookie",
+      "version": "3.0.8",
+      "trustScore": 77.22,
       "confidence": 95
     },
     {
       "rank": 651,
-      "package": "bignumber.js",
-      "version": "11.1.5",
-      "trustScore": 77.2,
+      "package": "ky",
+      "version": "2.1.0",
+      "trustScore": 77.22,
       "confidence": 95
     },
     {
       "rank": 652,
-      "package": "@google-cloud/storage",
-      "version": "8.2.0",
-      "trustScore": 77.19,
+      "package": "bignumber.js",
+      "version": "11.1.5",
+      "trustScore": 77.21,
       "confidence": 95
     },
     {
       "rank": 653,
-      "package": "@commitlint/lint",
-      "version": "21.2.3",
-      "trustScore": 77.16,
+      "package": "@google-cloud/storage",
+      "version": "8.2.0",
+      "trustScore": 77.2,
       "confidence": 95
     },
     {
       "rank": 654,
-      "package": "@commitlint/read",
+      "package": "@commitlint/lint",
       "version": "21.2.3",
-      "trustScore": 77.16,
+      "trustScore": 77.17,
       "confidence": 95
     },
     {
       "rank": 655,
-      "package": "minimatch",
-      "version": "10.2.6",
-      "trustScore": 77.15,
+      "package": "@commitlint/read",
+      "version": "21.2.3",
+      "trustScore": 77.17,
       "confidence": 95
     },
     {
       "rank": 656,
-      "package": "@opentelemetry/semantic-conventions",
-      "version": "1.43.0",
-      "trustScore": 77.14,
+      "package": "minimatch",
+      "version": "10.2.6",
+      "trustScore": 77.16,
       "confidence": 95
     },
     {
       "rank": 657,
-      "package": "resolve",
-      "version": "1.22.12",
-      "trustScore": 77.11,
+      "package": "@opentelemetry/semantic-conventions",
+      "version": "1.43.0",
+      "trustScore": 77.16,
       "confidence": 95
     },
     {
       "rank": 658,
-      "package": "dompurify",
-      "version": "3.4.16",
-      "trustScore": 77.1,
+      "package": "resolve",
+      "version": "1.22.12",
+      "trustScore": 77.13,
       "confidence": 95
     },
     {
       "rank": 659,
-      "package": "diff",
-      "version": "9.0.0",
-      "trustScore": 77.09,
+      "package": "dompurify",
+      "version": "3.4.16",
+      "trustScore": 77.12,
       "confidence": 95
     },
     {
       "rank": 660,
-      "package": "react-native-web",
-      "version": "0.21.3",
-      "trustScore": 77.08,
+      "package": "diff",
+      "version": "9.0.0",
+      "trustScore": 77.1,
       "confidence": 95
     },
     {
       "rank": 661,
-      "package": "http-proxy-agent",
-      "version": "9.1.0",
-      "trustScore": 77.07,
+      "package": "react-native-web",
+      "version": "0.21.3",
+      "trustScore": 77.09,
       "confidence": 95
     },
     {
       "rank": 662,
-      "package": "expo-constants",
-      "version": "57.0.20",
-      "trustScore": 77.02,
+      "package": "http-proxy-agent",
+      "version": "9.1.0",
+      "trustScore": 77.08,
       "confidence": 95
     },
     {
       "rank": 663,
+      "package": "expo-constants",
+      "version": "57.0.20",
+      "trustScore": 77.04,
+      "confidence": 95
+    },
+    {
+      "rank": 664,
       "package": "dataloader",
       "version": "2.2.3",
       "trustScore": 77,
       "confidence": 95
     },
     {
-      "rank": 664,
+      "rank": 665,
       "package": "fastest-levenshtein",
       "version": "1.0.16",
       "trustScore": 77,
       "confidence": 95
     },
     {
-      "rank": 665,
+      "rank": 666,
       "package": "next-auth",
       "version": "4.24.15",
-      "trustScore": 76.99,
-      "confidence": 95
-    },
-    {
-      "rank": 666,
-      "package": "react-syntax-highlighter",
-      "version": "16.1.1",
-      "trustScore": 76.96,
+      "trustScore": 77,
       "confidence": 95
     },
     {
       "rank": 667,
-      "package": "chardet",
-      "version": "2.2.0",
-      "trustScore": 76.91,
+      "package": "react-syntax-highlighter",
+      "version": "16.1.1",
+      "trustScore": 76.98,
       "confidence": 95
     },
     {
       "rank": 668,
-      "package": "pumpify",
-      "version": "2.0.1",
-      "trustScore": 76.9,
+      "package": "chardet",
+      "version": "2.2.0",
+      "trustScore": 76.93,
       "confidence": 95
     },
     {
       "rank": 669,
       "package": "w3c-xmlserializer",
       "version": "6.0.0",
-      "trustScore": 76.88,
+      "trustScore": 76.9,
       "confidence": 95
     },
     {
       "rank": 670,
-      "package": "ava",
-      "version": "8.0.1",
-      "trustScore": 76.87,
+      "package": "pumpify",
+      "version": "2.0.1",
+      "trustScore": 76.9,
       "confidence": 95
     },
     {
       "rank": 671,
-      "package": "decompress-response",
-      "version": "10.0.0",
-      "trustScore": 76.83,
+      "package": "ava",
+      "version": "8.0.1",
+      "trustScore": 76.88,
       "confidence": 95
     },
     {
       "rank": 672,
-      "package": "csv",
-      "version": "6.6.4",
-      "trustScore": 76.83,
+      "package": "decompress-response",
+      "version": "10.0.0",
+      "trustScore": 76.84,
       "confidence": 95
     },
     {
       "rank": 673,
-      "package": "wait-on",
-      "version": "9.5.1",
-      "trustScore": 76.77,
+      "package": "csv",
+      "version": "6.6.4",
+      "trustScore": 76.84,
       "confidence": 95
     },
     {
@@ -4741,63 +4741,63 @@
       "rank": 677,
       "package": "@chakra-ui/react",
       "version": "3.37.0",
-      "trustScore": 76.71,
+      "trustScore": 76.73,
       "confidence": 95
     },
     {
       "rank": 678,
       "package": "qs",
       "version": "6.16.0",
-      "trustScore": 76.69,
+      "trustScore": 76.7,
       "confidence": 95
     },
     {
       "rank": 679,
       "package": "webpack-bundle-analyzer",
       "version": "5.4.0",
-      "trustScore": 76.69,
+      "trustScore": 76.7,
       "confidence": 95
     },
     {
       "rank": 680,
       "package": "postcss-import",
       "version": "17.0.0",
-      "trustScore": 76.65,
+      "trustScore": 76.66,
       "confidence": 95
     },
     {
       "rank": 681,
       "package": "string-width",
       "version": "8.3.0",
-      "trustScore": 76.59,
+      "trustScore": 76.6,
       "confidence": 95
     },
     {
       "rank": 682,
       "package": "pretty-bytes",
       "version": "7.2.0",
-      "trustScore": 76.56,
+      "trustScore": 76.58,
       "confidence": 95
     },
     {
       "rank": 683,
       "package": "micromark-util-types",
       "version": "2.0.3",
-      "trustScore": 76.56,
+      "trustScore": 76.58,
       "confidence": 95
     },
     {
       "rank": 684,
       "package": "basic-auth",
       "version": "3.0.0",
-      "trustScore": 76.55,
+      "trustScore": 76.56,
       "confidence": 95
     },
     {
       "rank": 685,
       "package": "pg-connection-string",
       "version": "2.14.1",
-      "trustScore": 76.51,
+      "trustScore": 76.52,
       "confidence": 95
     },
     {
@@ -4928,43 +4928,43 @@
     },
     {
       "rank": 704,
+      "package": "@testing-library/react",
+      "version": "16.3.3",
+      "trustScore": 76.49,
+      "confidence": 95
+    },
+    {
+      "rank": 705,
       "package": "blueimp-md5",
       "version": "2.19.0",
       "trustScore": 76.49,
       "confidence": 95
     },
     {
-      "rank": 705,
-      "package": "@testing-library/react",
-      "version": "16.3.3",
+      "rank": 706,
+      "package": "@sindresorhus/is",
+      "version": "8.1.0",
       "trustScore": 76.47,
       "confidence": 95
     },
     {
-      "rank": 706,
-      "package": "@sindresorhus/is",
-      "version": "8.1.0",
-      "trustScore": 76.45,
-      "confidence": 95
-    },
-    {
       "rank": 707,
-      "package": "webpack-node-externals",
-      "version": "3.0.0",
-      "trustScore": 76.37,
-      "confidence": 95
-    },
-    {
-      "rank": 708,
       "package": "extend-shallow",
       "version": "3.0.2",
       "trustScore": 76.36,
       "confidence": 95
     },
     {
-      "rank": 709,
+      "rank": 708,
       "package": "indent-string",
       "version": "5.0.0",
+      "trustScore": 76.36,
+      "confidence": 95
+    },
+    {
+      "rank": 709,
+      "package": "webpack-node-externals",
+      "version": "3.0.0",
       "trustScore": 76.36,
       "confidence": 95
     },
@@ -4972,35 +4972,35 @@
       "rank": 710,
       "package": "webpack-manifest-plugin",
       "version": "6.0.1",
-      "trustScore": 76.31,
+      "trustScore": 76.32,
       "confidence": 95
     },
     {
       "rank": 711,
       "package": "@typescript-eslint/scope-manager",
       "version": "8.71.0",
-      "trustScore": 76.28,
+      "trustScore": 76.3,
       "confidence": 95
     },
     {
       "rank": 712,
       "package": "@typescript-eslint/typescript-estree",
       "version": "8.71.0",
-      "trustScore": 76.28,
+      "trustScore": 76.3,
       "confidence": 95
     },
     {
       "rank": 713,
-      "package": "@typescript-eslint/parser",
+      "package": "@typescript-eslint/type-utils",
       "version": "8.71.0",
-      "trustScore": 76.28,
+      "trustScore": 76.3,
       "confidence": 95
     },
     {
       "rank": 714,
-      "package": "@typescript-eslint/type-utils",
+      "package": "@typescript-eslint/parser",
       "version": "8.71.0",
-      "trustScore": 76.28,
+      "trustScore": 76.3,
       "confidence": 95
     },
     {
@@ -5035,42 +5035,42 @@
       "rank": 719,
       "package": "marked",
       "version": "18.0.14",
-      "trustScore": 76.12,
+      "trustScore": 76.14,
       "confidence": 95
     },
     {
       "rank": 720,
-      "package": "@ngtools/webpack",
-      "version": "22.2.0",
+      "package": "vscode-languageserver-textdocument",
+      "version": "1.0.15",
       "trustScore": 76.1,
       "confidence": 95
     },
     {
       "rank": 721,
-      "package": "vscode-languageserver-textdocument",
-      "version": "1.0.15",
-      "trustScore": 76.09,
-      "confidence": 95
-    },
-    {
-      "rank": 722,
       "package": "unbzip2-stream",
       "version": "1.4.3",
       "trustScore": 76.09,
       "confidence": 95
     },
     {
-      "rank": 723,
+      "rank": 722,
       "package": "https-proxy-agent",
       "version": "9.1.0",
-      "trustScore": 76.07,
+      "trustScore": 76.08,
+      "confidence": 95
+    },
+    {
+      "rank": 723,
+      "package": "socks-proxy-agent",
+      "version": "10.1.0",
+      "trustScore": 76.08,
       "confidence": 95
     },
     {
       "rank": 724,
-      "package": "socks-proxy-agent",
-      "version": "10.1.0",
-      "trustScore": 76.07,
+      "package": "@cypress/react",
+      "version": "10.0.1",
+      "trustScore": 76.05,
       "confidence": 95
     },
     {
@@ -5082,30 +5082,30 @@
     },
     {
       "rank": 726,
-      "package": "@cypress/react",
-      "version": "10.0.1",
-      "trustScore": 76.03,
+      "package": "npm",
+      "version": "12.2.0",
+      "trustScore": 76.02,
       "confidence": 95
     },
     {
       "rank": 727,
-      "package": "electron-to-chromium",
-      "version": "1.5.443",
-      "trustScore": 76.01,
+      "package": "create-next-app",
+      "version": "16.3.8",
+      "trustScore": 76.02,
       "confidence": 95
     },
     {
       "rank": 728,
-      "package": "npm",
-      "version": "12.2.0",
+      "package": "@ngtools/webpack",
+      "version": "22.2.1",
       "trustScore": 76.01,
       "confidence": 95
     },
     {
       "rank": 729,
-      "package": "create-next-app",
-      "version": "16.3.8",
-      "trustScore": 76.01,
+      "package": "electron-to-chromium",
+      "version": "1.5.444",
+      "trustScore": 76,
       "confidence": 95
     },
     {
@@ -5117,36 +5117,36 @@
     },
     {
       "rank": 731,
-      "package": "create-require",
-      "version": "1.1.1",
-      "trustScore": 76,
-      "confidence": 95
-    },
-    {
-      "rank": 732,
       "package": "@material-ui/lab",
       "version": "4.0.0-alpha.61",
       "trustScore": 76,
       "confidence": 80
     },
     {
-      "rank": 733,
+      "rank": 732,
       "package": "@assemblyscript/loader",
       "version": "0.28.20",
-      "trustScore": 75.97,
+      "trustScore": 75.99,
+      "confidence": 95
+    },
+    {
+      "rank": 733,
+      "package": "create-require",
+      "version": "1.1.1",
+      "trustScore": 75.99,
       "confidence": 95
     },
     {
       "rank": 734,
-      "package": "lodash.isinteger",
-      "version": "4.0.4",
-      "trustScore": 75.96,
+      "package": "http-proxy-middleware",
+      "version": "4.2.0",
+      "trustScore": 75.97,
       "confidence": 95
     },
     {
       "rank": 735,
-      "package": "http-proxy-middleware",
-      "version": "4.2.0",
+      "package": "lodash.isinteger",
+      "version": "4.0.4",
       "trustScore": 75.96,
       "confidence": 95
     },
@@ -5161,41 +5161,41 @@
       "rank": 737,
       "package": "p-retry",
       "version": "8.0.1",
-      "trustScore": 75.91,
+      "trustScore": 75.92,
       "confidence": 95
     },
     {
       "rank": 738,
       "package": "react-error-boundary",
       "version": "6.1.6",
-      "trustScore": 75.89,
+      "trustScore": 75.91,
       "confidence": 95
     },
     {
       "rank": 739,
       "package": "@react-native-community/cli",
       "version": "20.2.0",
-      "trustScore": 75.84,
+      "trustScore": 75.85,
       "confidence": 95
     },
     {
       "rank": 740,
       "package": "winston",
       "version": "3.19.0",
-      "trustScore": 75.83,
+      "trustScore": 75.84,
       "confidence": 95
     },
     {
       "rank": 741,
-      "package": "xtend",
-      "version": "4.0.2",
-      "trustScore": 75.83,
+      "package": "less-loader",
+      "version": "13.0.0",
+      "trustScore": 75.84,
       "confidence": 95
     },
     {
       "rank": 742,
-      "package": "less-loader",
-      "version": "13.0.0",
+      "package": "xtend",
+      "version": "4.0.2",
       "trustScore": 75.83,
       "confidence": 95
     },
@@ -5208,8 +5208,8 @@
     },
     {
       "rank": 744,
-      "package": "@fluentui/react",
-      "version": "8.125.7",
+      "package": "p-timeout",
+      "version": "7.0.2",
       "trustScore": 75.77,
       "confidence": 95
     },
@@ -5222,15 +5222,15 @@
     },
     {
       "rank": 746,
-      "package": "split2",
-      "version": "4.2.0",
+      "package": "react-native",
+      "version": "0.87.1",
       "trustScore": 75.75,
       "confidence": 95
     },
     {
       "rank": 747,
-      "package": "p-timeout",
-      "version": "7.0.2",
+      "package": "split2",
+      "version": "4.2.0",
       "trustScore": 75.75,
       "confidence": 95
     },
@@ -5250,16 +5250,16 @@
     },
     {
       "rank": 750,
-      "package": "react-native",
-      "version": "0.87.1",
-      "trustScore": 75.74,
+      "package": "react-draggable",
+      "version": "4.7.2",
+      "trustScore": 75.71,
       "confidence": 95
     },
     {
       "rank": 751,
-      "package": "react-draggable",
-      "version": "4.7.2",
-      "trustScore": 75.7,
+      "package": "react-docgen",
+      "version": "8.0.4",
+      "trustScore": 75.65,
       "confidence": 95
     },
     {
@@ -5271,121 +5271,121 @@
     },
     {
       "rank": 753,
-      "package": "react-docgen",
-      "version": "8.0.4",
-      "trustScore": 75.64,
+      "package": "rimraf",
+      "version": "6.1.3",
+      "trustScore": 75.62,
       "confidence": 95
     },
     {
       "rank": 754,
-      "package": "rimraf",
-      "version": "6.1.3",
-      "trustScore": 75.61,
+      "package": "emittery",
+      "version": "2.1.0",
+      "trustScore": 75.58,
       "confidence": 95
     },
     {
       "rank": 755,
-      "package": "emittery",
-      "version": "2.1.0",
-      "trustScore": 75.56,
-      "confidence": 95
-    },
-    {
-      "rank": 756,
       "package": "destroy",
       "version": "1.2.0",
       "trustScore": 75.5,
       "confidence": 95
     },
     {
-      "rank": 757,
+      "rank": 756,
       "package": "promise-polyfill",
       "version": "8.3.0",
       "trustScore": 75.5,
       "confidence": 95
     },
     {
-      "rank": 758,
+      "rank": 757,
       "package": "webpack-virtual-modules",
       "version": "0.6.2",
       "trustScore": 75.5,
       "confidence": 95
     },
     {
-      "rank": 759,
+      "rank": 758,
       "package": "sponge-case",
       "version": "2.0.3",
       "trustScore": 75.5,
       "confidence": 95
     },
     {
-      "rank": 760,
+      "rank": 759,
       "package": "clone-response",
       "version": "2.0.0",
       "trustScore": 75.5,
       "confidence": 95
     },
     {
-      "rank": 761,
+      "rank": 760,
       "package": "unist-util-stringify-position",
       "version": "4.0.0",
       "trustScore": 75.5,
       "confidence": 95
     },
     {
-      "rank": 762,
+      "rank": 761,
       "package": "pathval",
       "version": "2.0.1",
       "trustScore": 75.5,
       "confidence": 95
     },
     {
-      "rank": 763,
+      "rank": 762,
       "package": "is-descriptor",
       "version": "3.1.2",
+      "trustScore": 75.47,
+      "confidence": 95
+    },
+    {
+      "rank": 763,
+      "package": "@grpc/grpc-js",
+      "version": "1.14.5",
       "trustScore": 75.45,
       "confidence": 95
     },
     {
       "rank": 764,
-      "package": "@grpc/grpc-js",
-      "version": "1.14.5",
-      "trustScore": 75.43,
+      "package": "flatted",
+      "version": "3.4.4",
+      "trustScore": 75.37,
       "confidence": 95
     },
     {
       "rank": 765,
-      "package": "flatted",
-      "version": "3.4.4",
-      "trustScore": 75.36,
-      "confidence": 95
-    },
-    {
-      "rank": 766,
       "package": "escape-goat",
       "version": "4.0.0",
       "trustScore": 75.36,
       "confidence": 95
     },
     {
-      "rank": 767,
+      "rank": 766,
       "package": "webpack",
       "version": "5.111.1",
-      "trustScore": 75.32,
+      "trustScore": 75.34,
+      "confidence": 95
+    },
+    {
+      "rank": 767,
+      "package": "colord",
+      "version": "2.10.0",
+      "trustScore": 75.33,
       "confidence": 95
     },
     {
       "rank": 768,
-      "package": "colord",
-      "version": "2.10.0",
+      "package": "case-sensitive-paths-webpack-plugin",
+      "version": "2.4.0",
       "trustScore": 75.32,
       "confidence": 95
     },
     {
       "rank": 769,
-      "package": "case-sensitive-paths-webpack-plugin",
-      "version": "2.4.0",
-      "trustScore": 75.32,
+      "package": "unist-util-is",
+      "version": "6.0.1",
+      "trustScore": 75.3,
       "confidence": 95
     },
     {
@@ -5397,65 +5397,65 @@
     },
     {
       "rank": 771,
-      "package": "unist-util-is",
-      "version": "6.0.1",
+      "package": "enhanced-resolve",
+      "version": "5.26.0",
       "trustScore": 75.29,
       "confidence": 95
     },
     {
       "rank": 772,
-      "package": "enhanced-resolve",
-      "version": "5.26.0",
-      "trustScore": 75.27,
+      "package": "pm2",
+      "version": "7.0.4",
+      "trustScore": 75.28,
       "confidence": 95
     },
     {
       "rank": 773,
-      "package": "pm2",
-      "version": "7.0.4",
+      "package": "react-day-picker",
+      "version": "10.0.2",
       "trustScore": 75.27,
       "confidence": 95
     },
     {
       "rank": 774,
-      "package": "react-day-picker",
-      "version": "10.0.2",
+      "package": "lodash.template",
+      "version": "4.18.1",
       "trustScore": 75.26,
       "confidence": 95
     },
     {
       "rank": 775,
-      "package": "lodash.template",
-      "version": "4.18.1",
-      "trustScore": 75.25,
-      "confidence": 95
-    },
-    {
-      "rank": 776,
       "package": "hoist-non-react-statics",
       "version": "3.3.2",
       "trustScore": 75.24,
       "confidence": 95
     },
     {
-      "rank": 777,
+      "rank": 776,
       "package": "@pmmmwh/react-refresh-webpack-plugin",
       "version": "0.6.3",
+      "trustScore": 75.24,
+      "confidence": 95
+    },
+    {
+      "rank": 777,
+      "package": "@react-aria/utils",
+      "version": "3.34.1",
       "trustScore": 75.23,
       "confidence": 95
     },
     {
       "rank": 778,
-      "package": "@react-aria/utils",
-      "version": "3.34.1",
-      "trustScore": 75.22,
+      "package": "@react-aria/interactions",
+      "version": "3.28.1",
+      "trustScore": 75.23,
       "confidence": 95
     },
     {
       "rank": 779,
-      "package": "@react-aria/interactions",
-      "version": "3.28.1",
-      "trustScore": 75.22,
+      "package": "react-content-loader",
+      "version": "7.1.2",
+      "trustScore": 75.21,
       "confidence": 95
     },
     {
@@ -5467,128 +5467,128 @@
     },
     {
       "rank": 781,
-      "package": "react-content-loader",
-      "version": "7.1.2",
-      "trustScore": 75.19,
+      "package": "react-colorful",
+      "version": "5.8.1",
+      "trustScore": 75.17,
       "confidence": 95
     },
     {
       "rank": 782,
-      "package": "react-colorful",
-      "version": "5.8.1",
-      "trustScore": 75.15,
+      "package": "@graphql-tools/wrap",
+      "version": "11.2.0",
+      "trustScore": 75.07,
       "confidence": 95
     },
     {
       "rank": 783,
+      "package": "nodemon",
+      "version": "3.1.14",
+      "trustScore": 75.06,
+      "confidence": 95
+    },
+    {
+      "rank": 784,
       "package": "is-extglob",
       "version": "2.1.1",
       "trustScore": 75.06,
       "confidence": 95
     },
     {
-      "rank": 784,
-      "package": "@graphql-tools/wrap",
-      "version": "11.2.0",
-      "trustScore": 75.06,
-      "confidence": 95
-    },
-    {
       "rank": 785,
-      "package": "nodemon",
-      "version": "3.1.14",
-      "trustScore": 75.04,
+      "package": "gaxios",
+      "version": "8.1.0",
+      "trustScore": 74.96,
       "confidence": 95
     },
     {
       "rank": 786,
-      "package": "gaxios",
-      "version": "8.1.0",
-      "trustScore": 74.95,
-      "confidence": 95
-    },
-    {
-      "rank": 787,
       "package": "thunky",
       "version": "1.1.0",
       "trustScore": 74.91,
       "confidence": 95
     },
     {
-      "rank": 788,
+      "rank": 787,
       "package": "postcss-pseudo-class-any-link",
       "version": "11.0.1",
+      "trustScore": 74.84,
+      "confidence": 95
+    },
+    {
+      "rank": 788,
+      "package": "react-hook-form",
+      "version": "7.89.0",
       "trustScore": 74.83,
       "confidence": 95
     },
     {
       "rank": 789,
-      "package": "react-hook-form",
-      "version": "7.89.0",
-      "trustScore": 74.82,
+      "package": "@parcel/node-resolver-core",
+      "version": "3.7.4",
+      "trustScore": 74.81,
       "confidence": 95
     },
     {
       "rank": 790,
-      "package": "@parcel/node-resolver-core",
-      "version": "3.7.4",
-      "trustScore": 74.8,
-      "confidence": 95
-    },
-    {
-      "rank": 791,
       "package": "dlv",
       "version": "1.1.3",
       "trustScore": 74.79,
       "confidence": 95
     },
     {
-      "rank": 792,
+      "rank": 791,
       "package": "toidentifier",
       "version": "1.0.1",
       "trustScore": 74.75,
       "confidence": 95
     },
     {
-      "rank": 793,
+      "rank": 792,
       "package": "renderkid",
       "version": "3.0.0",
       "trustScore": 74.75,
       "confidence": 95
     },
     {
-      "rank": 794,
+      "rank": 793,
       "package": "requires-port",
       "version": "1.0.0",
       "trustScore": 74.72,
       "confidence": 95
     },
     {
-      "rank": 795,
+      "rank": 794,
       "package": "copy-webpack-plugin",
       "version": "14.0.0",
-      "trustScore": 74.66,
+      "trustScore": 74.67,
+      "confidence": 95
+    },
+    {
+      "rank": 795,
+      "package": "compression-webpack-plugin",
+      "version": "12.0.0",
+      "trustScore": 74.67,
       "confidence": 95
     },
     {
       "rank": 796,
-      "package": "compression-webpack-plugin",
-      "version": "12.0.0",
+      "package": "react-native-webview",
+      "version": "14.0.1",
       "trustScore": 74.66,
       "confidence": 95
     },
     {
       "rank": 797,
-      "package": "react-native-webview",
-      "version": "14.0.1",
-      "trustScore": 74.65,
+      "package": "neo-async",
+      "version": "2.6.2",
+      "trustScore": 74.63,
       "confidence": 95
     },
     {
       "rank": 798,
-      "package": "neo-async",
-      "version": "2.6.2",
-      "trustScore": 74.63,
+      "package": "is-accessor-descriptor",
+      "version": "3.0.6",
+      "trustScore": 74.61,
       "confidence": 95
     },
     {
@@ -5600,36 +5600,36 @@
     },
     {
       "rank": 800,
-      "package": "is-accessor-descriptor",
-      "version": "3.0.6",
-      "trustScore": 74.6,
-      "confidence": 95
-    },
-    {
-      "rank": 801,
       "package": "validate-npm-package-license",
       "version": "3.0.4",
       "trustScore": 74.55,
       "confidence": 95
     },
     {
+      "rank": 801,
+      "package": "chai",
+      "version": "6.3.0",
+      "trustScore": 74.52,
+      "confidence": 95
+    },
+    {
       "rank": 802,
       "package": "ignore",
       "version": "7.0.11",
-      "trustScore": 74.51,
+      "trustScore": 74.52,
       "confidence": 95
     },
     {
       "rank": 803,
-      "package": "no-case",
-      "version": "4.0.0",
-      "trustScore": 74.5,
+      "package": "@fluentui/react",
+      "version": "8.125.8",
+      "trustScore": 74.51,
       "confidence": 95
     },
     {
       "rank": 804,
-      "package": "chai",
-      "version": "6.3.0",
+      "package": "no-case",
+      "version": "4.0.0",
       "trustScore": 74.5,
       "confidence": 95
     },
@@ -5721,28 +5721,28 @@
       "rank": 817,
       "package": "css-what",
       "version": "8.0.0",
-      "trustScore": 74.46,
+      "trustScore": 74.47,
       "confidence": 95
     },
     {
       "rank": 818,
       "package": "formik",
       "version": "2.4.9",
-      "trustScore": 74.44,
+      "trustScore": 74.46,
       "confidence": 95
     },
     {
       "rank": 819,
       "package": "typedoc",
       "version": "0.28.20",
-      "trustScore": 74.44,
+      "trustScore": 74.46,
       "confidence": 95
     },
     {
       "rank": 820,
       "package": "sass-loader",
       "version": "17.0.1",
-      "trustScore": 74.43,
+      "trustScore": 74.44,
       "confidence": 95
     },
     {
@@ -5756,7 +5756,7 @@
       "rank": 822,
       "package": "@testing-library/user-event",
       "version": "14.6.7",
-      "trustScore": 74.4,
+      "trustScore": 74.41,
       "confidence": 95
     },
     {
@@ -5770,69 +5770,69 @@
       "rank": 824,
       "package": "strip-indent",
       "version": "4.1.1",
-      "trustScore": 74.34,
+      "trustScore": 74.36,
       "confidence": 95
     },
     {
       "rank": 825,
       "package": "@react-types/shared",
       "version": "3.36.1",
-      "trustScore": 74.34,
+      "trustScore": 74.36,
       "confidence": 95
     },
     {
       "rank": 826,
       "package": "babel-plugin-react-native-web",
       "version": "0.21.3",
-      "trustScore": 74.32,
+      "trustScore": 74.34,
       "confidence": 95
     },
     {
       "rank": 827,
       "package": "discord.js",
       "version": "14.27.0",
-      "trustScore": 74.31,
+      "trustScore": 74.33,
       "confidence": 95
     },
     {
       "rank": 828,
       "package": "firebase",
       "version": "12.19.0",
-      "trustScore": 74.29,
+      "trustScore": 74.31,
       "confidence": 95
     },
     {
       "rank": 829,
       "package": "@typescript-eslint/eslint-plugin",
       "version": "8.71.0",
-      "trustScore": 74.28,
+      "trustScore": 74.3,
       "confidence": 95
     },
     {
       "rank": 830,
-      "package": "@sentry/node",
-      "version": "11.1.0",
-      "trustScore": 74.28,
-      "confidence": 95
-    },
-    {
-      "rank": 831,
       "package": "fast-memoize",
       "version": "2.5.2",
       "trustScore": 74.28,
       "confidence": 95
     },
     {
-      "rank": 832,
+      "rank": 831,
       "package": "msw",
       "version": "3.0.1",
-      "trustScore": 74.26,
+      "trustScore": 74.27,
+      "confidence": 95
+    },
+    {
+      "rank": 832,
+      "package": "@nestjs/platform-socket.io",
+      "version": "12.1.2",
+      "trustScore": 74.27,
       "confidence": 95
     },
     {
       "rank": 833,
-      "package": "@nestjs/platform-socket.io",
-      "version": "12.1.2",
+      "package": "@sentry/node",
+      "version": "11.2.0",
       "trustScore": 74.26,
       "confidence": 95
     },
@@ -5847,70 +5847,70 @@
       "rank": 835,
       "package": "react-dropzone",
       "version": "20.1.2",
-      "trustScore": 74.23,
+      "trustScore": 74.24,
       "confidence": 95
     },
     {
       "rank": 836,
       "package": "@cypress/request",
       "version": "4.0.1",
-      "trustScore": 74.22,
+      "trustScore": 74.23,
       "confidence": 95
     },
     {
       "rank": 837,
       "package": "domhandler",
       "version": "6.0.1",
-      "trustScore": 74.21,
+      "trustScore": 74.22,
       "confidence": 95
     },
     {
       "rank": 838,
       "package": "css-select",
       "version": "7.0.0",
-      "trustScore": 74.13,
+      "trustScore": 74.15,
       "confidence": 95
     },
     {
       "rank": 839,
       "package": "puppeteer",
       "version": "25.12.0",
-      "trustScore": 74.1,
+      "trustScore": 74.12,
       "confidence": 95
     },
     {
       "rank": 840,
       "package": "nock",
       "version": "14.0.17",
-      "trustScore": 74.1,
+      "trustScore": 74.12,
       "confidence": 95
     },
     {
       "rank": 841,
-      "package": "sequelize",
-      "version": "6.37.8",
-      "trustScore": 74.09,
+      "package": "babel-preset-expo",
+      "version": "57.0.13",
+      "trustScore": 74.11,
       "confidence": 95
     },
     {
       "rank": 842,
-      "package": "babel-preset-expo",
-      "version": "57.0.13",
-      "trustScore": 74.09,
+      "package": "sequelize",
+      "version": "6.37.8",
+      "trustScore": 74.1,
       "confidence": 95
     },
     {
       "rank": 843,
       "package": "framer-motion",
-      "version": "13.4.6",
-      "trustScore": 74.02,
+      "version": "13.5.0",
+      "trustScore": 74.01,
       "confidence": 95
     },
     {
       "rank": 844,
       "package": "node-gyp",
       "version": "13.0.2",
-      "trustScore": 73.99,
+      "trustScore": 74,
       "confidence": 95
     },
     {
@@ -5922,50 +5922,50 @@
     },
     {
       "rank": 846,
-      "package": "tar",
-      "version": "7.5.22",
-      "trustScore": 73.94,
+      "package": "spdx-license-ids",
+      "version": "3.0.24",
+      "trustScore": 73.96,
       "confidence": 95
     },
     {
       "rank": 847,
-      "package": "spdx-license-ids",
-      "version": "3.0.24",
-      "trustScore": 73.94,
+      "package": "tar",
+      "version": "7.5.22",
+      "trustScore": 73.95,
       "confidence": 95
     },
     {
       "rank": 848,
       "package": "react-helmet-async",
       "version": "3.0.0",
-      "trustScore": 73.9,
+      "trustScore": 73.91,
       "confidence": 95
     },
     {
       "rank": 849,
       "package": "fs-extra",
       "version": "11.4.1",
-      "trustScore": 73.87,
+      "trustScore": 73.88,
       "confidence": 95
     },
     {
       "rank": 850,
       "package": "superagent",
       "version": "10.4.1",
-      "trustScore": 73.86,
+      "trustScore": 73.87,
       "confidence": 95
     },
     {
       "rank": 851,
-      "package": "external-editor",
-      "version": "3.1.0",
-      "trustScore": 73.83,
+      "package": "c8",
+      "version": "12.0.0",
+      "trustScore": 73.84,
       "confidence": 95
     },
     {
       "rank": 852,
-      "package": "c8",
-      "version": "12.0.0",
+      "package": "external-editor",
+      "version": "3.1.0",
       "trustScore": 73.83,
       "confidence": 95
     },
@@ -5987,14 +5987,14 @@
       "rank": 855,
       "package": "cli-truncate",
       "version": "6.1.1",
-      "trustScore": 73.64,
+      "trustScore": 73.66,
       "confidence": 95
     },
     {
       "rank": 856,
       "package": "pg-protocol",
       "version": "1.16.1",
-      "trustScore": 73.51,
+      "trustScore": 73.52,
       "confidence": 95
     },
     {
@@ -6092,70 +6092,70 @@
       "rank": 870,
       "package": "strip-ansi",
       "version": "7.2.0",
-      "trustScore": 73.47,
+      "trustScore": 73.48,
       "confidence": 95
     },
     {
       "rank": 871,
+      "package": "commander",
+      "version": "15.0.0",
+      "trustScore": 73.47,
+      "confidence": 95
+    },
+    {
+      "rank": 872,
+      "package": "crypto-random-string",
+      "version": "6.0.0",
+      "trustScore": 73.47,
+      "confidence": 95
+    },
+    {
+      "rank": 873,
       "package": "clean-webpack-plugin",
       "version": "4.0.0",
       "trustScore": 73.47,
       "confidence": 95
     },
     {
-      "rank": 872,
-      "package": "commander",
-      "version": "15.0.0",
-      "trustScore": 73.46,
-      "confidence": 95
-    },
-    {
-      "rank": 873,
-      "package": "crypto-random-string",
-      "version": "6.0.0",
-      "trustScore": 73.45,
-      "confidence": 95
-    },
-    {
       "rank": 874,
+      "package": "jsdom",
+      "version": "30.1.1",
+      "trustScore": 73.39,
+      "confidence": 95
+    },
+    {
+      "rank": 875,
       "package": "path-parse",
       "version": "1.0.7",
       "trustScore": 73.39,
       "confidence": 95
     },
     {
-      "rank": 875,
-      "package": "jsdom",
-      "version": "30.1.1",
-      "trustScore": 73.37,
-      "confidence": 95
-    },
-    {
       "rank": 876,
       "package": "pg-pool",
       "version": "3.14.0",
-      "trustScore": 73.36,
+      "trustScore": 73.37,
       "confidence": 95
     },
     {
       "rank": 877,
       "package": "ua-parser-js",
       "version": "2.0.10",
-      "trustScore": 73.32,
+      "trustScore": 73.33,
       "confidence": 95
     },
     {
       "rank": 878,
       "package": "@nestjs/platform-express",
       "version": "12.1.2",
-      "trustScore": 73.26,
+      "trustScore": 73.27,
       "confidence": 95
     },
     {
       "rank": 879,
       "package": "@nestjs/platform-fastify",
       "version": "12.1.2",
-      "trustScore": 73.26,
+      "trustScore": 73.27,
       "confidence": 95
     },
     {
@@ -6169,14 +6169,14 @@
       "rank": 881,
       "package": "@aws-sdk/credential-provider-node",
       "version": "3.972.84",
-      "trustScore": 73.11,
+      "trustScore": 73.13,
       "confidence": 95
     },
     {
       "rank": 882,
       "package": "@aws-sdk/credential-provider-sso",
       "version": "3.973.16",
-      "trustScore": 73.11,
+      "trustScore": 73.13,
       "confidence": 95
     },
     {
@@ -6190,21 +6190,21 @@
       "rank": 884,
       "package": "ts-dedent",
       "version": "2.3.0",
-      "trustScore": 73.05,
+      "trustScore": 73.06,
       "confidence": 95
     },
     {
       "rank": 885,
       "package": "swiper",
       "version": "14.3.0",
-      "trustScore": 73.03,
+      "trustScore": 73.05,
       "confidence": 95
     },
     {
       "rank": 886,
       "package": "data-uri-to-buffer",
       "version": "8.0.0",
-      "trustScore": 73.01,
+      "trustScore": 73.02,
       "confidence": 95
     },
     {
@@ -6225,7 +6225,7 @@
       "rank": 889,
       "package": "string-length",
       "version": "7.0.1",
-      "trustScore": 72.96,
+      "trustScore": 72.97,
       "confidence": 95
     },
     {
@@ -6239,7 +6239,7 @@
       "rank": 891,
       "package": "onetime",
       "version": "8.0.0",
-      "trustScore": 72.8,
+      "trustScore": 72.81,
       "confidence": 95
     },
     {
@@ -6267,98 +6267,98 @@
       "rank": 895,
       "package": "nan",
       "version": "2.29.0",
-      "trustScore": 72.73,
+      "trustScore": 72.74,
       "confidence": 95
     },
     {
       "rank": 896,
       "package": "builtin-modules",
       "version": "5.4.0",
-      "trustScore": 72.69,
+      "trustScore": 72.7,
       "confidence": 95
     },
     {
       "rank": 897,
+      "package": "responselike",
+      "version": "4.0.2",
+      "trustScore": 72.64,
+      "confidence": 95
+    },
+    {
+      "rank": 898,
       "package": "@react-native/assets",
       "version": "1.0.0",
       "trustScore": 72.64,
       "confidence": 75
     },
     {
-      "rank": 898,
-      "package": "responselike",
-      "version": "4.0.2",
-      "trustScore": 72.62,
-      "confidence": 95
-    },
-    {
       "rank": 899,
       "package": "dom-serializer",
       "version": "3.1.1",
-      "trustScore": 72.58,
+      "trustScore": 72.59,
       "confidence": 95
     },
     {
       "rank": 900,
       "package": "preact",
       "version": "11.0.0",
-      "trustScore": 72.51,
+      "trustScore": 72.53,
       "confidence": 95
     },
     {
       "rank": 901,
+      "package": "axios",
+      "version": "1.20.0",
+      "trustScore": 72.5,
+      "confidence": 95
+    },
+    {
+      "rank": 902,
       "package": "is-plain-obj",
       "version": "4.1.0",
       "trustScore": 72.5,
       "confidence": 95
     },
     {
-      "rank": 902,
+      "rank": 903,
       "package": "deep-equal",
       "version": "2.2.3",
       "trustScore": 72.5,
       "confidence": 95
     },
     {
-      "rank": 903,
+      "rank": 904,
       "package": "capital-case",
       "version": "2.0.0",
       "trustScore": 72.5,
       "confidence": 95
     },
     {
-      "rank": 904,
+      "rank": 905,
       "package": "strip-final-newline",
       "version": "4.0.0",
       "trustScore": 72.5,
       "confidence": 95
     },
     {
-      "rank": 905,
+      "rank": 906,
       "package": "header-case",
       "version": "3.0.0",
       "trustScore": 72.5,
       "confidence": 95
     },
     {
-      "rank": 906,
+      "rank": 907,
       "package": "is-symbol",
       "version": "1.1.1",
       "trustScore": 72.5,
       "confidence": 95
     },
     {
-      "rank": 907,
+      "rank": 908,
       "package": "is-weakref",
       "version": "1.1.1",
       "trustScore": 72.5,
-      "confidence": 95
-    },
-    {
-      "rank": 908,
-      "package": "axios",
-      "version": "1.20.0",
-      "trustScore": 72.49,
       "confidence": 95
     },
     {
@@ -6384,43 +6384,43 @@
     },
     {
       "rank": 912,
-      "package": "stylelint",
-      "version": "17.15.0",
-      "trustScore": 72.36,
-      "confidence": 95
-    },
-    {
-      "rank": 913,
       "package": "strip-bom",
       "version": "5.0.0",
       "trustScore": 72.36,
       "confidence": 95
     },
     {
-      "rank": 914,
+      "rank": 913,
       "package": "ts-morph",
       "version": "28.0.0",
-      "trustScore": 72.35,
+      "trustScore": 72.36,
+      "confidence": 95
+    },
+    {
+      "rank": 914,
+      "package": "sucrase",
+      "version": "3.35.1",
+      "trustScore": 72.33,
       "confidence": 95
     },
     {
       "rank": 915,
-      "package": "sucrase",
-      "version": "3.35.1",
-      "trustScore": 72.32,
-      "confidence": 95
-    },
-    {
-      "rank": 916,
       "package": "is-extendable",
       "version": "1.0.1",
       "trustScore": 72.28,
       "confidence": 95
     },
     {
-      "rank": 917,
+      "rank": 916,
       "package": "esbuild-wasm",
       "version": "0.28.2",
+      "trustScore": 72.24,
+      "confidence": 95
+    },
+    {
+      "rank": 917,
+      "package": "autoprefixer",
+      "version": "10.6.1",
       "trustScore": 72.23,
       "confidence": 95
     },
@@ -6433,30 +6433,30 @@
     },
     {
       "rank": 919,
-      "package": "autoprefixer",
-      "version": "10.6.1",
-      "trustScore": 72.21,
-      "confidence": 95
-    },
-    {
-      "rank": 920,
       "package": "color-support",
       "version": "1.1.3",
       "trustScore": 72.2,
       "confidence": 95
     },
     {
+      "rank": 920,
+      "package": "react-window",
+      "version": "2.3.3",
+      "trustScore": 72.13,
+      "confidence": 95
+    },
+    {
       "rank": 921,
       "package": "node-releases",
       "version": "2.0.57",
-      "trustScore": 72.11,
+      "trustScore": 72.12,
       "confidence": 95
     },
     {
       "rank": 922,
-      "package": "react-window",
-      "version": "2.3.3",
-      "trustScore": 72.11,
+      "package": "stylelint",
+      "version": "17.16.0",
+      "trustScore": 72.01,
       "confidence": 95
     },
     {
@@ -6470,7 +6470,7 @@
       "rank": 924,
       "package": "call-bind",
       "version": "1.0.9",
-      "trustScore": 71.89,
+      "trustScore": 71.9,
       "confidence": 95
     },
     {
@@ -6484,7 +6484,7 @@
       "rank": 926,
       "package": "sweetalert2",
       "version": "11.26.25",
-      "trustScore": 71.79,
+      "trustScore": 71.8,
       "confidence": 95
     },
     {
@@ -6505,7 +6505,7 @@
       "rank": 929,
       "package": "import-fresh",
       "version": "4.0.1",
-      "trustScore": 71.57,
+      "trustScore": 71.59,
       "confidence": 95
     },
     {
@@ -6533,7 +6533,7 @@
       "rank": 933,
       "package": "react-grid-layout",
       "version": "2.2.4",
-      "trustScore": 71.37,
+      "trustScore": 71.38,
       "confidence": 95
     },
     {
@@ -6545,29 +6545,29 @@
     },
     {
       "rank": 935,
-      "package": "@sentry/react",
-      "version": "11.1.0",
-      "trustScore": 71.28,
+      "package": "@nestjs/testing",
+      "version": "12.1.2",
+      "trustScore": 71.27,
       "confidence": 95
     },
     {
       "rank": 936,
-      "package": "@nestjs/testing",
+      "package": "@nestjs/microservices",
       "version": "12.1.2",
-      "trustScore": 71.26,
+      "trustScore": 71.27,
       "confidence": 95
     },
     {
       "rank": 937,
-      "package": "@nestjs/microservices",
+      "package": "@nestjs/websockets",
       "version": "12.1.2",
-      "trustScore": 71.26,
+      "trustScore": 71.27,
       "confidence": 95
     },
     {
       "rank": 938,
-      "package": "@nestjs/websockets",
-      "version": "12.1.2",
+      "package": "@sentry/react",
+      "version": "11.2.0",
       "trustScore": 71.26,
       "confidence": 95
     },
@@ -6575,28 +6575,28 @@
       "rank": 939,
       "package": "proxy-from-env",
       "version": "2.1.0",
-      "trustScore": 71.24,
+      "trustScore": 71.26,
       "confidence": 95
     },
     {
       "rank": 940,
       "package": "domelementtype",
       "version": "3.0.0",
-      "trustScore": 71.21,
+      "trustScore": 71.22,
       "confidence": 95
     },
     {
       "rank": 941,
       "package": "lru-cache",
       "version": "11.5.3",
-      "trustScore": 71.17,
+      "trustScore": 71.18,
       "confidence": 95
     },
     {
       "rank": 942,
       "package": "side-channel",
       "version": "1.1.1",
-      "trustScore": 71.07,
+      "trustScore": 71.08,
       "confidence": 95
     },
     {
@@ -6617,7 +6617,7 @@
       "rank": 945,
       "package": "slice-ansi",
       "version": "9.0.1",
-      "trustScore": 70.92,
+      "trustScore": 70.93,
       "confidence": 95
     },
     {
@@ -6631,21 +6631,21 @@
       "rank": 947,
       "package": "emoji-regex",
       "version": "11.0.0",
-      "trustScore": 70.71,
+      "trustScore": 70.73,
       "confidence": 95
     },
     {
       "rank": 948,
       "package": "wrap-ansi",
       "version": "10.0.2",
-      "trustScore": 70.64,
+      "trustScore": 70.65,
       "confidence": 95
     },
     {
       "rank": 949,
       "package": "use-debounce",
       "version": "10.1.1",
-      "trustScore": 70.54,
+      "trustScore": 70.55,
       "confidence": 95
     },
     {
@@ -6685,16 +6685,16 @@
     },
     {
       "rank": 955,
-      "package": "bail",
-      "version": "2.0.2",
+      "package": "react-intersection-observer",
+      "version": "11.0.1",
       "trustScore": 70.5,
       "confidence": 95
     },
     {
       "rank": 956,
-      "package": "react-intersection-observer",
-      "version": "11.0.1",
-      "trustScore": 70.49,
+      "package": "bail",
+      "version": "2.0.2",
+      "trustScore": 70.5,
       "confidence": 95
     },
     {
@@ -6736,21 +6736,21 @@
       "rank": 962,
       "package": "@nestjs/common",
       "version": "12.1.2",
-      "trustScore": 70.26,
+      "trustScore": 70.27,
       "confidence": 95
     },
     {
       "rank": 963,
       "package": "@nestjs/core",
       "version": "12.1.2",
-      "trustScore": 70.26,
+      "trustScore": 70.27,
       "confidence": 95
     },
     {
       "rank": 964,
       "package": "react-toastify",
       "version": "11.1.0",
-      "trustScore": 70.25,
+      "trustScore": 70.26,
       "confidence": 95
     },
     {
@@ -6764,55 +6764,55 @@
       "rank": 966,
       "package": "google-auth-library",
       "version": "11.1.0",
-      "trustScore": 70.2,
+      "trustScore": 70.21,
       "confidence": 95
     },
     {
       "rank": 967,
       "package": "file-type",
       "version": "22.1.1",
-      "trustScore": 70.19,
+      "trustScore": 70.2,
       "confidence": 95
     },
     {
       "rank": 968,
       "package": "ws",
       "version": "8.22.0",
-      "trustScore": 70.06,
+      "trustScore": 70.08,
       "confidence": 95
     },
     {
       "rank": 969,
       "package": "glob",
       "version": "13.0.6",
-      "trustScore": 70.06,
+      "trustScore": 70.07,
       "confidence": 95
     },
     {
       "rank": 970,
       "package": "file-entry-cache",
       "version": "11.1.5",
-      "trustScore": 70.06,
+      "trustScore": 70.07,
       "confidence": 95
     },
     {
       "rank": 971,
-      "package": "path-browserify",
-      "version": "1.0.1",
-      "trustScore": 70.03,
+      "package": "@grafana/e2e-selectors",
+      "version": "13.2.3",
+      "trustScore": 70.04,
       "confidence": 95
     },
     {
       "rank": 972,
       "package": "memfs",
       "version": "4.80.0",
-      "trustScore": 70.02,
+      "trustScore": 70.03,
       "confidence": 95
     },
     {
       "rank": 973,
-      "package": "@grafana/e2e-selectors",
-      "version": "13.2.3",
+      "package": "path-browserify",
+      "version": "1.0.1",
       "trustScore": 70.02,
       "confidence": 95
     },
@@ -6827,7 +6827,7 @@
       "rank": 975,
       "package": "@tootallnate/once",
       "version": "3.0.1",
-      "trustScore": 69.95,
+      "trustScore": 69.96,
       "confidence": 95
     },
     {
@@ -6848,49 +6848,49 @@
       "rank": 978,
       "package": "@colors/colors",
       "version": "1.6.1",
-      "trustScore": 69.83,
+      "trustScore": 69.84,
       "confidence": 95
     },
     {
       "rank": 979,
+      "package": "get-stdin",
+      "version": "10.0.0",
+      "trustScore": 69.77,
+      "confidence": 95
+    },
+    {
+      "rank": 980,
       "package": "resolve-cwd",
       "version": "3.0.0",
       "trustScore": 69.77,
       "confidence": 95
     },
     {
-      "rank": 980,
-      "package": "get-stdin",
-      "version": "10.0.0",
-      "trustScore": 69.76,
+      "rank": 981,
+      "package": "dot-prop",
+      "version": "10.2.0",
+      "trustScore": 69.5,
       "confidence": 95
     },
     {
-      "rank": 981,
+      "rank": 982,
       "package": "flux",
       "version": "4.0.4",
       "trustScore": 69.5,
       "confidence": 95
     },
     {
-      "rank": 982,
+      "rank": 983,
       "package": "supports-preserve-symlinks-flag",
       "version": "1.0.0",
       "trustScore": 69.5,
       "confidence": 75
     },
     {
-      "rank": 983,
-      "package": "dot-prop",
-      "version": "10.2.0",
-      "trustScore": 69.48,
-      "confidence": 95
-    },
-    {
       "rank": 984,
       "package": "react-i18next",
       "version": "17.0.15",
-      "trustScore": 69.13,
+      "trustScore": 69.14,
       "confidence": 95
     },
     {
@@ -6904,7 +6904,7 @@
       "rank": 986,
       "package": "filesize",
       "version": "11.0.25",
-      "trustScore": 68.81,
+      "trustScore": 68.82,
       "confidence": 95
     },
     {
@@ -6946,21 +6946,21 @@
       "rank": 992,
       "package": "supports-color",
       "version": "11.0.0",
-      "trustScore": 68.41,
+      "trustScore": 68.42,
       "confidence": 95
     },
     {
       "rank": 993,
       "package": "sharp",
       "version": "0.35.5",
-      "trustScore": 68.05,
+      "trustScore": 68.06,
       "confidence": 95
     },
     {
       "rank": 994,
       "package": "@grafana/data",
       "version": "13.2.3",
-      "trustScore": 68.02,
+      "trustScore": 68.04,
       "confidence": 95
     },
     {
@@ -6974,35 +6974,35 @@
       "rank": 996,
       "package": "got",
       "version": "16.0.0",
-      "trustScore": 67.68,
+      "trustScore": 67.69,
       "confidence": 95
     },
     {
       "rank": 997,
       "package": "react-use",
       "version": "17.6.1",
-      "trustScore": 66.79,
+      "trustScore": 66.8,
       "confidence": 95
     },
     {
       "rank": 998,
       "package": "@grafana/ui",
       "version": "13.2.3",
-      "trustScore": 65.87,
+      "trustScore": 65.89,
       "confidence": 95
     },
     {
       "rank": 999,
       "package": "googleapis",
       "version": "182.0.0",
-      "trustScore": 65.85,
+      "trustScore": 65.86,
       "confidence": 95
     },
     {
       "rank": 1000,
       "package": "is-core-module",
       "version": "2.17.0",
-      "trustScore": 65.69,
+      "trustScore": 65.71,
       "confidence": 95
     }
   ],
