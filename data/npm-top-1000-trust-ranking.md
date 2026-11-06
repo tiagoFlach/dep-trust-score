@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-11-05T04:50:28.317Z
+- Generated at: 2026-11-06T04:49:20.724Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -19,11 +19,11 @@
 | 8 | rxjs | 7.8.2 | 88.75 | 95 |
 | 9 | prismjs | 1.30.0 | 88.5 | 95 |
 | 10 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
-| 11 | @babel/plugin-transform-typeof-symbol | 8.0.1 | 88.18 | 95 |
-| 12 | @babel/plugin-transform-dotall-regex | 8.0.1 | 88.18 | 95 |
-| 13 | @babel/plugin-transform-react-inline-elements | 8.0.1 | 88.18 | 95 |
-| 14 | eslint-import-resolver-typescript | 4.4.5 | 88.15 | 95 |
-| 15 | @babel/plugin-syntax-typescript | 8.0.3 | 88.04 | 95 |
+| 11 | @babel/plugin-transform-dotall-regex | 8.0.1 | 88.19 | 95 |
+| 12 | @babel/plugin-transform-typeof-symbol | 8.0.1 | 88.19 | 95 |
+| 13 | @babel/plugin-transform-react-inline-elements | 8.0.1 | 88.19 | 95 |
+| 14 | eslint-import-resolver-typescript | 4.4.5 | 88.16 | 95 |
+| 15 | @babel/plugin-syntax-typescript | 8.0.3 | 88.06 | 95 |
 | 16 | @nrwl/tao | 19.8.4 | 88 | 95 |
 | 17 | @nrwl/cli | 15.9.3 | 88 | 95 |
 | 18 | @nrwl/jest | 19.8.4 | 88 | 95 |
