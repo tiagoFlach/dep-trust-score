@@ -1,6 +1,6 @@
 # NPM Top 1000 - Trust Score Ranking
 
-- Generated at: 2026-11-24T08:02:45.756Z
+- Generated at: 2026-11-25T06:41:56.344Z
 - Input packages: 1000
 - Ranked packages: 1000
 - Errors: 0
@@ -18,13 +18,13 @@
 | 7 | diff-sequences | 29.6.3 | 89 | 95 |
 | 8 | rxjs | 7.8.2 | 88.75 | 95 |
 | 9 | prismjs | 1.30.0 | 88.5 | 95 |
-| 10 | @babel/plugin-transform-dotall-regex | 8.0.1 | 88.44 | 95 |
-| 11 | @babel/plugin-transform-typeof-symbol | 8.0.1 | 88.44 | 95 |
-| 12 | @babel/plugin-transform-react-inline-elements | 8.0.1 | 88.44 | 95 |
-| 13 | eslint-import-resolver-typescript | 4.4.5 | 88.41 | 95 |
-| 14 | @babel/plugin-syntax-typescript | 8.0.3 | 88.3 | 95 |
-| 15 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
-| 16 | zustand | 5.1.0 | 88.24 | 95 |
+| 10 | @babel/plugin-transform-dotall-regex | 8.0.1 | 88.45 | 95 |
+| 11 | @babel/plugin-transform-typeof-symbol | 8.0.1 | 88.45 | 95 |
+| 12 | @babel/plugin-transform-react-inline-elements | 8.0.1 | 88.45 | 95 |
+| 13 | eslint-import-resolver-typescript | 4.4.5 | 88.43 | 95 |
+| 14 | @babel/plugin-syntax-typescript | 8.0.3 | 88.32 | 95 |
+| 15 | zustand | 5.1.0 | 88.26 | 95 |
+| 16 | @storybook/channel-websocket | 7.6.17 | 88.25 | 95 |
 | 17 | @nrwl/tao | 19.8.4 | 88 | 95 |
 | 18 | @nrwl/cli | 15.9.3 | 88 | 95 |
 | 19 | @nrwl/jest | 19.8.4 | 88 | 95 |
